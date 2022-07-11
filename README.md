@@ -1,4 +1,4 @@
-# ExPatApp
+# ExPat App
 
 ## Problem
 With changing political and economic landscapes and different travel patterns in a post-COVID world, there is new interest for emigration from America. However, there is no clear index of how an American should go about choosing a different country to start a new life.
@@ -19,7 +19,8 @@ The data for this project will be sourced to inform 5 key variables that an Amer
 * Political system
 * Educational system
 * Culture and lifestyle
-This data will be sourced from government agencies, international organizations (e.g., the UN and OECD), non-governmental organizations (NGOs), as well as private sources that may have relevant data for traveling, culture, and economics (Yelp, Google, etcetera). 
+
+This data will be sourced from government agencies, international organizations (e.g., the UN and OECD), non-governmental organizations (NGOs), as well as private sources that may have relevant data for traveling, culture, and economics (Yelp, Google, etcetera). A [preliminary data flow chart diagram](https://github.com/nicolebplatt/ExPatApp/blob/main/Data%20Flow%20Chart.pdf) is available. 
 
 ## Deliverable
 From analyzing the data, this project intends to answer the question of which countries are most suitable for emigration from America.
