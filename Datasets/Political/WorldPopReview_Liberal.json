@@ -1,0 +1,132 @@
+[
+  {
+    "country": "Australia",
+    "moveHub2022": 10,
+    "moveHub2017": 15,
+    "politic2020": 5
+  },
+  {
+    "country": "Germany",
+    "moveHub2022": 9,
+    "moveHub2017": 13,
+    "politic2020": 10
+  },
+  {
+    "country": "Canada",
+    "moveHub2022": 8,
+    "moveHub2017": 11,
+    "politic2020": 15
+  },
+  {
+    "country": "Switzerland",
+    "moveHub2022": 7,
+    "moveHub2017": 7,
+    "politic2020": 6
+  },
+  {
+    "country": "New Zealand",
+    "moveHub2022": 6,
+    "moveHub2017": 5,
+    "politic2020": 1
+  },
+  {
+    "country": "Iceland",
+    "moveHub2022": 5,
+    "moveHub2017": 1
+  },
+  {
+    "country": "Finland",
+    "moveHub2022": 4,
+    "moveHub2017": 2,
+    "politic2020": 3
+  },
+  {
+    "country": "Denmark",
+    "moveHub2022": 3,
+    "moveHub2017": 8,
+    "politic2020": 13
+  },
+  {
+    "country": "Sweden",
+    "moveHub2022": 2,
+    "moveHub2017": 3,
+    "politic2020": 8
+  },
+  {
+    "country": "Norway",
+    "moveHub2022": 1,
+    "moveHub2017": 4,
+    "politic2020": 12
+  },
+  {
+    "country": "India",
+    "politic2020": 2
+  },
+  {
+    "country": "United States",
+    "moveHub2017": 21,
+    "politic2020": 11
+  },
+  {
+    "country": "Philippines",
+    "moveHub2017": 23
+  },
+  {
+    "country": "United Kingdom",
+    "moveHub2017": 10,
+    "politic2020": 4
+  },
+  {
+    "country": "France",
+    "moveHub2017": 16
+  },
+  {
+    "country": "Spain",
+    "moveHub2017": 20
+  },
+  {
+    "country": "Netherlands",
+    "moveHub2017": 22,
+    "politic2020": 14
+  },
+  {
+    "country": "Belgium",
+    "moveHub2017": 18
+  },
+  {
+    "country": "Portugal",
+    "moveHub2017": 12
+  },
+  {
+    "country": "Austria",
+    "moveHub2017": 24
+  },
+  {
+    "country": "Ireland",
+    "moveHub2017": 9
+  },
+  {
+    "country": "Uruguay",
+    "politic2020": 7
+  },
+  {
+    "country": "Lithuania",
+    "moveHub2017": 19
+  },
+  {
+    "country": "Namibia",
+    "moveHub2017": 25
+  },
+  {
+    "country": "Slovenia",
+    "moveHub2017": 6
+  },
+  {
+    "country": "Latvia",
+    "moveHub2017": 14
+  },
+  {
+    "country": "Estonia",
+    "moveHub2017": 17
+  }
+]

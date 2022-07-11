@@ -1,0 +1,1242 @@
+[
+  {
+    "country": "Iceland",
+    "gendEqal2021": "0.8920",
+    "econ": "0.8460",
+    "education": "0.9990",
+    "health": "0.9640",
+    "polit": "0.7600"
+  },
+  {
+    "country": "Finland",
+    "gendEqal2021": "0.8610",
+    "econ": "0.8060",
+    "education": 1,
+    "health": "0.9700",
+    "polit": "0.6690"
+  },
+  {
+    "country": "Norway",
+    "gendEqal2021": "0.8490",
+    "econ": "0.7920",
+    "education": 1,
+    "health": "0.9640",
+    "polit": "0.6400"
+  },
+  {
+    "country": "New Zealand",
+    "gendEqal2021": "0.8400",
+    "econ": "0.7630",
+    "education": 1,
+    "health": "0.9660",
+    "polit": "0.6300"
+  },
+  {
+    "country": "Sweden",
+    "gendEqal2021": "0.8230",
+    "econ": "0.8100",
+    "education": "0.9960",
+    "health": "0.9620",
+    "polit": "0.5220"
+  },
+  {
+    "country": "Namibia",
+    "gendEqal2021": "0.8090",
+    "econ": "0.7940",
+    "education": 1,
+    "health": "0.9800",
+    "polit": "0.4630"
+  },
+  {
+    "country": "Rwanda",
+    "gendEqal2021": "0.8050",
+    "econ": "0.7260",
+    "education": "0.9570",
+    "health": "0.9740",
+    "polit": "0.5630"
+  },
+  {
+    "country": "Lithuania",
+    "gendEqal2021": "0.8040",
+    "econ": "0.8080",
+    "education": "0.9980",
+    "health": "0.9800",
+    "polit": "0.4290"
+  },
+  {
+    "country": "Ireland",
+    "gendEqal2021": "0.8000",
+    "econ": "0.7330",
+    "education": "0.9980",
+    "health": "0.9640",
+    "polit": "0.5040"
+  },
+  {
+    "country": "Switzerland",
+    "gendEqal2021": "0.7980",
+    "econ": "0.7430",
+    "education": "0.9920",
+    "health": "0.9640",
+    "polit": "0.4940"
+  },
+  {
+    "country": "Germany",
+    "gendEqal2021": "0.7960",
+    "econ": "0.7060",
+    "education": "0.9970",
+    "health": "0.9720",
+    "polit": "0.5090"
+  },
+  {
+    "country": "Nicaragua",
+    "gendEqal2021": "0.7960",
+    "econ": "0.5980",
+    "education": 1,
+    "health": "0.9780",
+    "polit": "0.6060"
+  },
+  {
+    "country": "Belgium",
+    "gendEqal2021": "0.7890",
+    "econ": "0.7090",
+    "education": 1,
+    "health": "0.9680",
+    "polit": "0.4800"
+  },
+  {
+    "country": "Spain",
+    "gendEqal2021": "0.7880",
+    "econ": "0.6990",
+    "education": "0.9980",
+    "health": "0.9650",
+    "polit": "0.4910"
+  },
+  {
+    "country": "Costa Rica",
+    "gendEqal2021": "0.7860",
+    "econ": "0.6240",
+    "education": 1,
+    "health": "0.9730",
+    "polit": "0.5450"
+  },
+  {
+    "country": "Philippines",
+    "gendEqal2021": "0.7840",
+    "econ": "0.7950",
+    "education": "0.9990",
+    "health": "0.9790",
+    "polit": "0.3620"
+  },
+  {
+    "country": "France",
+    "gendEqal2021": "0.7840",
+    "econ": "0.7100",
+    "education": 1,
+    "health": "0.9700",
+    "polit": "0.4570"
+  },
+  {
+    "country": "South Africa",
+    "gendEqal2021": "0.7810",
+    "econ": "0.6580",
+    "education": "0.9940",
+    "health": "0.9790",
+    "polit": "0.4930"
+  },
+  {
+    "country": "Serbia",
+    "gendEqal2021": "0.7800",
+    "econ": "0.7160",
+    "education": "0.9980",
+    "health": "0.9690",
+    "polit": "0.4370"
+  },
+  {
+    "country": "Latvia",
+    "gendEqal2021": "0.7780",
+    "econ": "0.8220",
+    "education": 1,
+    "health": "0.9760",
+    "polit": "0.3130"
+  },
+  {
+    "country": "Austria",
+    "gendEqal2021": "0.7770",
+    "econ": "0.6650",
+    "education": 1,
+    "health": "0.9700",
+    "polit": "0.4730"
+  },
+  {
+    "country": "United Kingdom",
+    "gendEqal2021": "0.7750",
+    "econ": "0.7160",
+    "education": "0.9990",
+    "health": "0.9660",
+    "polit": "0.4190"
+  },
+  {
+    "country": "Portugal",
+    "gendEqal2021": "0.7750",
+    "econ": "0.7460",
+    "education": "0.9920",
+    "health": "0.9720",
+    "polit": "0.3900"
+  },
+  {
+    "country": "Canada",
+    "gendEqal2021": "0.7720",
+    "econ": "0.7410",
+    "education": 1,
+    "health": "0.9680",
+    "polit": "0.3810"
+  },
+  {
+    "country": "Albania",
+    "gendEqal2021": "0.7700",
+    "econ": "0.7480",
+    "education": "0.9990",
+    "health": "0.9560",
+    "polit": "0.3770"
+  },
+  {
+    "country": "Burundi",
+    "gendEqal2021": "0.7690",
+    "econ": "0.8550",
+    "education": "0.8960",
+    "health": "0.9790",
+    "polit": "0.3450"
+  },
+  {
+    "country": "Barbados",
+    "gendEqal2021": "0.7690",
+    "econ": "0.8370",
+    "education": "0.9910",
+    "health": "0.9680",
+    "polit": "0.2780"
+  },
+  {
+    "country": "Denmark",
+    "gendEqal2021": "0.7680",
+    "econ": "0.7360",
+    "education": 1,
+    "health": "0.9640",
+    "polit": "0.3710"
+  },
+  {
+    "country": "Moldova",
+    "gendEqal2021": "0.7680",
+    "econ": "0.8110",
+    "education": "0.9960",
+    "health": "0.9800",
+    "polit": "0.2860"
+  },
+  {
+    "country": "United States",
+    "gendEqal2021": "0.7630",
+    "econ": "0.7540",
+    "education": 1,
+    "health": "0.9700",
+    "polit": "0.3290"
+  },
+  {
+    "country": "Netherlands",
+    "gendEqal2021": "0.7620",
+    "econ": "0.7130",
+    "education": 1,
+    "health": "0.9620",
+    "polit": "0.3750"
+  },
+  {
+    "country": "Mozambique",
+    "gendEqal2021": "0.7580",
+    "econ": "0.6550",
+    "education": "0.9040",
+    "health": "0.9800",
+    "polit": "0.4940"
+  },
+  {
+    "country": "Belarus",
+    "gendEqal2021": "0.7580",
+    "econ": "0.8400",
+    "education": "0.9990",
+    "health": "0.9770",
+    "polit": "0.2160"
+  },
+  {
+    "country": "Mexico",
+    "gendEqal2021": "0.7570",
+    "econ": "0.5900",
+    "education": "0.9970",
+    "health": "0.9750",
+    "polit": "0.4680"
+  },
+  {
+    "country": "Argentina",
+    "gendEqal2021": "0.7520",
+    "econ": "0.6390",
+    "education": 1,
+    "health": "0.9770",
+    "polit": "0.3900"
+  },
+  {
+    "country": "Laos",
+    "gendEqal2021": "0.7500",
+    "econ": "0.9150",
+    "education": "0.9650",
+    "health": "0.9750",
+    "polit": "0.1460"
+  },
+  {
+    "country": "Trinidad And Tobago",
+    "gendEqal2021": "0.7490",
+    "econ": "0.7030",
+    "education": "0.9940",
+    "health": "0.9800",
+    "polit": "0.3190"
+  },
+  {
+    "country": "Cuba",
+    "gendEqal2021": "0.7460",
+    "econ": "0.6300",
+    "education": "0.9980",
+    "health": "0.9730",
+    "polit": "0.3820"
+  },
+  {
+    "country": "Bulgaria",
+    "gendEqal2021": "0.7460",
+    "econ": "0.7380",
+    "education": "0.9910",
+    "health": "0.9790",
+    "polit": "0.2750"
+  },
+  {
+    "country": "Jamaica",
+    "gendEqal2021": "0.7410",
+    "econ": "0.7680",
+    "education": 1,
+    "health": "0.9680",
+    "polit": "0.2300"
+  },
+  {
+    "country": "Slovenia",
+    "gendEqal2021": "0.7410",
+    "econ": "0.8030",
+    "education": 1,
+    "health": "0.9770",
+    "polit": "0.1840"
+  },
+  {
+    "country": "Ecuador",
+    "gendEqal2021": "0.7390",
+    "econ": "0.6750",
+    "education": "0.9970",
+    "health": "0.9680",
+    "polit": "0.3180"
+  },
+  {
+    "country": "El Salvador",
+    "gendEqal2021": "0.7380",
+    "econ": "0.6340",
+    "education": "0.9920",
+    "health": "0.9800",
+    "polit": "0.3470"
+  },
+  {
+    "country": "Panama",
+    "gendEqal2021": "0.7370",
+    "econ": "0.7310",
+    "education": "0.9940",
+    "health": "0.9730",
+    "polit": "0.2520"
+  },
+  {
+    "country": "Croatia",
+    "gendEqal2021": "0.7330",
+    "econ": "0.6660",
+    "education": "0.9950",
+    "health": "0.9780",
+    "polit": "0.2940"
+  },
+  {
+    "country": "Estonia",
+    "gendEqal2021": "0.7330",
+    "econ": "0.7540",
+    "education": 1,
+    "health": "0.9750",
+    "polit": "0.2010"
+  },
+  {
+    "country": "Zimbabwe",
+    "gendEqal2021": "0.7320",
+    "econ": "0.7630",
+    "education": "0.9770",
+    "health": "0.9800",
+    "polit": "0.2100"
+  },
+  {
+    "country": "Georgia",
+    "gendEqal2021": "0.7320",
+    "econ": "0.7050",
+    "education": 1,
+    "health": "0.9770",
+    "polit": "0.2450"
+  },
+  {
+    "country": "Montenegro",
+    "gendEqal2021": "0.7320",
+    "econ": "0.7480",
+    "education": "0.9980",
+    "health": "0.9700",
+    "polit": "0.2120"
+  },
+  {
+    "country": "Australia",
+    "gendEqal2021": "0.7310",
+    "econ": "0.7000",
+    "education": 1,
+    "health": "0.9680",
+    "polit": "0.2580"
+  },
+  {
+    "country": "Eswatini",
+    "gendEqal2021": "0.7290",
+    "econ": "0.7970",
+    "education": "0.9920",
+    "health": "0.9800",
+    "polit": "0.1470"
+  },
+  {
+    "country": "Suriname",
+    "gendEqal2021": "0.7290",
+    "econ": "0.7030",
+    "education": "0.9930",
+    "health": "0.9690",
+    "polit": "0.2520"
+  },
+  {
+    "country": "Guyana",
+    "gendEqal2021": "0.7280",
+    "econ": "0.6380",
+    "education": "0.9840",
+    "health": "0.9800",
+    "polit": "0.3100"
+  },
+  {
+    "country": "Singapore",
+    "gendEqal2021": "0.7270",
+    "econ": "0.7490",
+    "education": "0.9900",
+    "health": "0.9630",
+    "polit": "0.2080"
+  },
+  {
+    "country": "Zambia",
+    "gendEqal2021": "0.7260",
+    "econ": "0.8040",
+    "education": "0.9380",
+    "health": "0.9800",
+    "polit": "0.1800"
+  },
+  {
+    "country": "Luxembourg",
+    "gendEqal2021": "0.7260",
+    "econ": "0.6910",
+    "education": 1,
+    "health": "0.9650",
+    "polit": "0.2470"
+  },
+  {
+    "country": "Colombia",
+    "gendEqal2021": "0.7250",
+    "econ": "0.7080",
+    "education": 1,
+    "health": "0.9750",
+    "polit": "0.2160"
+  },
+  {
+    "country": "Madagascar",
+    "gendEqal2021": "0.7250",
+    "econ": "0.7540",
+    "education": "0.9820",
+    "health": "0.9650",
+    "polit": "0.2000"
+  },
+  {
+    "country": "Bahamas",
+    "gendEqal2021": "0.7250",
+    "econ": "0.8570",
+    "education": 1,
+    "health": "0.9800",
+    "polit": "0.0640"
+  },
+  {
+    "country": "Israel",
+    "gendEqal2021": "0.7240",
+    "econ": "0.7050",
+    "education": 1,
+    "health": "0.9640",
+    "polit": "0.2270"
+  },
+  {
+    "country": "Bolivia",
+    "gendEqal2021": "0.7220",
+    "econ": "0.5950",
+    "education": "0.9810",
+    "health": "0.9620",
+    "polit": "0.3520"
+  },
+  {
+    "country": "Italy",
+    "gendEqal2021": "0.7210",
+    "econ": "0.6090",
+    "education": "0.9970",
+    "health": "0.9650",
+    "polit": "0.3130"
+  },
+  {
+    "country": "Peru",
+    "gendEqal2021": "0.7210",
+    "econ": "0.6290",
+    "education": "0.9810",
+    "health": "0.9640",
+    "polit": "0.3100"
+  },
+  {
+    "country": "Bangladesh",
+    "gendEqal2021": "0.7190",
+    "econ": "0.4180",
+    "education": "0.9510",
+    "health": "0.9620",
+    "polit": "0.5460"
+  },
+  {
+    "country": "Uganda",
+    "gendEqal2021": "0.7170",
+    "econ": "0.6920",
+    "education": "0.8980",
+    "health": "0.9800",
+    "polit": "0.2960"
+  },
+  {
+    "country": "Chile",
+    "gendEqal2021": "0.7160",
+    "econ": "0.6100",
+    "education": 1,
+    "health": "0.9700",
+    "polit": "0.2830"
+  },
+  {
+    "country": "Honduras",
+    "gendEqal2021": "0.7160",
+    "econ": "0.7210",
+    "education": 1,
+    "health": "0.9640",
+    "polit": "0.1790"
+  },
+  {
+    "country": "United Arab Emirates",
+    "gendEqal2021": "0.7160",
+    "econ": "0.5100",
+    "education": "0.9870",
+    "health": "0.9630",
+    "polit": "0.4030"
+  },
+  {
+    "country": "Mongolia",
+    "gendEqal2021": "0.7160",
+    "econ": "0.7690",
+    "education": "0.9930",
+    "health": "0.9800",
+    "polit": "0.1220"
+  },
+  {
+    "country": "Botswana",
+    "gendEqal2021": "0.7160",
+    "econ": "0.7990",
+    "education": 1,
+    "health": "0.9800",
+    "polit": "0.0840"
+  },
+  {
+    "country": "Cape Verde",
+    "gendEqal2021": "0.7160",
+    "econ": "0.7610",
+    "education": "0.9720",
+    "health": "0.9800",
+    "polit": "0.1520"
+  },
+  {
+    "country": "North Macedonia",
+    "gendEqal2021": "0.7150",
+    "econ": "0.6470",
+    "education": "0.9770",
+    "health": "0.9700",
+    "polit": "0.2670"
+  },
+  {
+    "country": "Ukraine",
+    "gendEqal2021": "0.7140",
+    "econ": "0.7320",
+    "education": 1,
+    "health": "0.9780",
+    "polit": "0.1470"
+  },
+  {
+    "country": "Poland",
+    "gendEqal2021": "0.7130",
+    "econ": "0.7050",
+    "education": "0.9960",
+    "health": "0.9800",
+    "polit": "0.1710"
+  },
+  {
+    "country": "Bosnia And Herzegovina",
+    "gendEqal2021": "0.7130",
+    "econ": "0.6080",
+    "education": "0.9670",
+    "health": "0.9740",
+    "polit": "0.3020"
+  },
+  {
+    "country": "Slovakia",
+    "gendEqal2021": "0.7120",
+    "econ": "0.6820",
+    "education": 1,
+    "health": "0.9800",
+    "polit": "0.1840"
+  },
+  {
+    "country": "Czech Republic",
+    "gendEqal2021": "0.7110",
+    "econ": "0.6620",
+    "education": 1,
+    "health": "0.9780",
+    "polit": "0.2030"
+  },
+  {
+    "country": "Thailand",
+    "gendEqal2021": "0.7100",
+    "econ": "0.7870",
+    "education": "0.9920",
+    "health": "0.9780",
+    "polit": "0.0840"
+  },
+  {
+    "country": "Kazakhstan",
+    "gendEqal2021": "0.7100",
+    "econ": "0.7280",
+    "education": "0.9950",
+    "health": "0.9750",
+    "polit": "0.1410"
+  },
+  {
+    "country": "Russia",
+    "gendEqal2021": "0.7080",
+    "econ": "0.7670",
+    "education": 1,
+    "health": "0.9800",
+    "polit": "0.0850"
+  },
+  {
+    "country": "Tanzania",
+    "gendEqal2021": "0.7070",
+    "econ": "0.7030",
+    "education": "0.9210",
+    "health": "0.9700",
+    "polit": "0.2350"
+  },
+  {
+    "country": "Cyprus",
+    "gendEqal2021": "0.7070",
+    "econ": "0.6940",
+    "education": "0.9980",
+    "health": "0.9600",
+    "polit": "0.1770"
+  },
+  {
+    "country": "Malta",
+    "gendEqal2021": "0.7030",
+    "econ": "0.6560",
+    "education": 1,
+    "health": "0.9650",
+    "polit": "0.1920"
+  },
+  {
+    "country": "Paraguay",
+    "gendEqal2021": "0.7020",
+    "econ": "0.6720",
+    "education": "0.9980",
+    "health": "0.9740",
+    "polit": "0.1640"
+  },
+  {
+    "country": "Uruguay",
+    "gendEqal2021": "0.7020",
+    "econ": "0.6900",
+    "education": 1,
+    "health": "0.9800",
+    "polit": "0.1400"
+  },
+  {
+    "country": "Vietnam",
+    "gendEqal2021": "0.7010",
+    "econ": "0.7650",
+    "education": "0.9820",
+    "health": "0.9450",
+    "polit": "0.1130"
+  },
+  {
+    "country": "Romania",
+    "gendEqal2021": "0.7000",
+    "econ": "0.7230",
+    "education": "0.9970",
+    "health": "0.9800",
+    "polit": "0.1000"
+  },
+  {
+    "country": "Venezuela",
+    "gendEqal2021": "0.6990",
+    "econ": "0.6170",
+    "education": "0.9980",
+    "health": "0.9800",
+    "polit": "0.1990"
+  },
+  {
+    "country": "Dominican Republic",
+    "gendEqal2021": "0.6990",
+    "econ": "0.6460",
+    "education": 1,
+    "health": "0.9800",
+    "polit": "0.1720"
+  },
+  {
+    "country": "Belize",
+    "gendEqal2021": "0.6990",
+    "econ": "0.7490",
+    "education": "0.9910",
+    "health": "0.9800",
+    "polit": "0.0750"
+  },
+  {
+    "country": "Lesotho",
+    "gendEqal2021": "0.6980",
+    "econ": "0.6470",
+    "education": 1,
+    "health": "0.9800",
+    "polit": "0.1650"
+  },
+  {
+    "country": "Brazil",
+    "gendEqal2021": "0.6950",
+    "econ": "0.6650",
+    "education": 1,
+    "health": "0.9800",
+    "polit": "0.1380"
+  },
+  {
+    "country": "Liberia",
+    "gendEqal2021": "0.6930",
+    "econ": "0.7170",
+    "education": "0.8390",
+    "health": "0.9620",
+    "polit": "0.2550"
+  },
+  {
+    "country": "Kenya",
+    "gendEqal2021": "0.6920",
+    "econ": "0.6720",
+    "education": "0.9290",
+    "health": "0.9750",
+    "polit": "0.1930"
+  },
+  {
+    "country": "Cameroon",
+    "gendEqal2021": "0.6920",
+    "econ": "0.7060",
+    "education": "0.8850",
+    "health": "0.9730",
+    "polit": "0.2020"
+  },
+  {
+    "country": "Ethiopia",
+    "gendEqal2021": "0.6910",
+    "econ": "0.5600",
+    "education": "0.8500",
+    "health": "0.9710",
+    "polit": "0.3820"
+  },
+  {
+    "country": "Greece",
+    "gendEqal2021": "0.6890",
+    "econ": "0.6720",
+    "education": "0.9940",
+    "health": "0.9660",
+    "polit": "0.1230"
+  },
+  {
+    "country": "Indonesia",
+    "gendEqal2021": "0.6880",
+    "econ": "0.6470",
+    "education": "0.9700",
+    "health": "0.9710",
+    "polit": "0.1640"
+  },
+  {
+    "country": "Azerbaijan",
+    "gendEqal2021": "0.6880",
+    "econ": "0.7480",
+    "education": "0.9960",
+    "health": "0.9390",
+    "polit": "0.0690"
+  },
+  {
+    "country": "Hungary",
+    "gendEqal2021": "0.6880",
+    "econ": "0.6690",
+    "education": "0.9930",
+    "health": "0.9800",
+    "polit": "0.1120"
+  },
+  {
+    "country": "South Korea",
+    "gendEqal2021": "0.6870",
+    "econ": "0.5860",
+    "education": "0.9730",
+    "health": "0.9760",
+    "polit": "0.2140"
+  },
+  {
+    "country": "Senegal",
+    "gendEqal2021": "0.6840",
+    "econ": "0.5540",
+    "education": "0.8880",
+    "health": "0.9670",
+    "polit": "0.3270"
+  },
+  {
+    "country": "Cambodia",
+    "gendEqal2021": "0.6840",
+    "econ": "0.7290",
+    "education": "0.9190",
+    "health": "0.9780",
+    "polit": "0.1110"
+  },
+  {
+    "country": "Nepal",
+    "gendEqal2021": "0.6830",
+    "econ": "0.6300",
+    "education": "0.8950",
+    "health": "0.9650",
+    "polit": "0.2410"
+  },
+  {
+    "country": "Togo",
+    "gendEqal2021": "0.6830",
+    "econ": "0.7870",
+    "education": "0.7820",
+    "health": "0.9790",
+    "polit": "0.1850"
+  },
+  {
+    "country": "China",
+    "gendEqal2021": "0.6820",
+    "econ": "0.7010",
+    "education": "0.9730",
+    "health": "0.9350",
+    "polit": "0.1180"
+  },
+  {
+    "country": "Myanmar",
+    "gendEqal2021": "0.6810",
+    "econ": "0.6570",
+    "education": "0.9750",
+    "health": "0.9800",
+    "polit": "0.1130"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "gendEqal2021": "0.6810",
+    "econ": "0.6460",
+    "education": "0.9900",
+    "health": "0.9800",
+    "polit": "0.1080"
+  },
+  {
+    "country": "Mauritius",
+    "gendEqal2021": "0.6790",
+    "econ": "0.6000",
+    "education": "0.9920",
+    "health": "0.9800",
+    "polit": "0.1440"
+  },
+  {
+    "country": "Brunei",
+    "gendEqal2021": "0.6780",
+    "econ": "0.7220",
+    "education": "0.9920",
+    "health": "0.9650",
+    "polit": "0.0310"
+  },
+  {
+    "country": "Malaysia",
+    "gendEqal2021": "0.6760",
+    "econ": "0.6380",
+    "education": "0.9940",
+    "health": "0.9720",
+    "polit": "0.1020"
+  },
+  {
+    "country": "Fiji",
+    "gendEqal2021": "0.6740",
+    "econ": "0.5680",
+    "education": "0.9970",
+    "health": "0.9720",
+    "polit": "0.1600"
+  },
+  {
+    "country": "Armenia",
+    "gendEqal2021": "0.6730",
+    "econ": "0.6550",
+    "education": "0.9980",
+    "health": "0.9500",
+    "polit": "0.0910"
+  },
+  {
+    "country": "Malawi",
+    "gendEqal2021": "0.6710",
+    "econ": "0.6240",
+    "education": "0.9150",
+    "health": "0.9800",
+    "polit": "0.1640"
+  },
+  {
+    "country": "Sri Lanka",
+    "gendEqal2021": "0.6700",
+    "econ": "0.5470",
+    "education": "0.9880",
+    "health": "0.9800",
+    "polit": "0.1670"
+  },
+  {
+    "country": "Ghana",
+    "gendEqal2021": "0.6660",
+    "econ": "0.5980",
+    "education": "0.9510",
+    "health": "0.9780",
+    "polit": "0.1350"
+  },
+  {
+    "country": "Guinea",
+    "gendEqal2021": "0.6600",
+    "econ": "0.8390",
+    "education": "0.6800",
+    "health": "0.9660",
+    "polit": "0.1570"
+  },
+  {
+    "country": "Angola",
+    "gendEqal2021": "0.6570",
+    "econ": "0.6460",
+    "education": "0.7590",
+    "health": "0.9760",
+    "polit": "0.2450"
+  },
+  {
+    "country": "Japan",
+    "gendEqal2021": "0.6560",
+    "econ": "0.6040",
+    "education": "0.9830",
+    "health": "0.9730",
+    "polit": "0.0610"
+  },
+  {
+    "country": "Guatemala",
+    "gendEqal2021": "0.6550",
+    "econ": "0.5600",
+    "education": "0.9690",
+    "health": "0.9790",
+    "polit": "0.1120"
+  },
+  {
+    "country": "Sierra Leone",
+    "gendEqal2021": "0.6550",
+    "econ": "0.7130",
+    "education": "0.8600",
+    "health": "0.9660",
+    "polit": "0.0830"
+  },
+  {
+    "country": "Benin",
+    "gendEqal2021": "0.6530",
+    "econ": "0.8140",
+    "education": "0.7330",
+    "health": "0.9730",
+    "polit": "0.0930"
+  },
+  {
+    "country": "Burkina Faso",
+    "gendEqal2021": "0.6510",
+    "econ": "0.6890",
+    "education": "0.8730",
+    "health": "0.9780",
+    "polit": "0.0660"
+  },
+  {
+    "country": "Tajikistan",
+    "gendEqal2021": "0.6500",
+    "econ": "0.5740",
+    "education": "0.9420",
+    "health": "0.9690",
+    "polit": "0.1120"
+  },
+  {
+    "country": "Tunisia",
+    "gendEqal2021": "0.6490",
+    "econ": "0.4450",
+    "education": "0.9700",
+    "health": "0.9690",
+    "polit": "0.2120"
+  },
+  {
+    "country": "Gambia",
+    "gendEqal2021": "0.6440",
+    "econ": "0.6070",
+    "education": "0.8910",
+    "health": "0.9680",
+    "polit": "0.1120"
+  },
+  {
+    "country": "Maldives",
+    "gendEqal2021": "0.6420",
+    "econ": "0.4910",
+    "education": 1,
+    "health": "0.9550",
+    "polit": "0.1210"
+  },
+  {
+    "country": "Egypt",
+    "gendEqal2021": "0.6390",
+    "econ": "0.4210",
+    "education": "0.9730",
+    "health": "0.9680",
+    "polit": "0.1960"
+  },
+  {
+    "country": "Bhutan",
+    "gendEqal2021": "0.6390",
+    "econ": "0.5560",
+    "education": "0.9540",
+    "health": "0.9630",
+    "polit": "0.0820"
+  },
+  {
+    "country": "Turkey",
+    "gendEqal2021": "0.6380",
+    "econ": "0.4860",
+    "education": "0.9750",
+    "health": "0.9670",
+    "polit": "0.1230"
+  },
+  {
+    "country": "Jordan",
+    "gendEqal2021": "0.6380",
+    "econ": "0.5380",
+    "education": "0.9910",
+    "health": "0.9570",
+    "polit": "0.0660"
+  },
+  {
+    "country": "Lebanon",
+    "gendEqal2021": "0.6380",
+    "econ": "0.4870",
+    "education": "0.9640",
+    "health": "0.9700",
+    "polit": "0.1290"
+  },
+  {
+    "country": "Ivory Coast",
+    "gendEqal2021": "0.6370",
+    "econ": "0.6640",
+    "education": "0.8280",
+    "health": "0.9790",
+    "polit": "0.0760"
+  },
+  {
+    "country": "Papua New Guinea",
+    "gendEqal2021": "0.6350",
+    "econ": "0.6840",
+    "education": "0.8950",
+    "health": "0.9590",
+    "polit": 0
+  },
+  {
+    "country": "Algeria",
+    "gendEqal2021": "0.6330",
+    "econ": "0.4560",
+    "education": "0.9660",
+    "health": "0.9580",
+    "polit": "0.1510"
+  },
+  {
+    "country": "Bahrain",
+    "gendEqal2021": "0.6320",
+    "econ": "0.5180",
+    "education": "0.9850",
+    "health": "0.9590",
+    "polit": "0.0660"
+  },
+  {
+    "country": "Niger",
+    "gendEqal2021": "0.6290",
+    "econ": "0.6730",
+    "education": "0.7260",
+    "health": "0.9640",
+    "polit": "0.1550"
+  },
+  {
+    "country": "Nigeria",
+    "gendEqal2021": "0.6270",
+    "econ": "0.6870",
+    "education": "0.8060",
+    "health": "0.9670",
+    "polit": "0.0470"
+  },
+  {
+    "country": "India",
+    "gendEqal2021": "0.6250",
+    "econ": "0.3260",
+    "education": "0.9620",
+    "health": "0.9370",
+    "polit": "0.2760"
+  },
+  {
+    "country": "Vanuatu",
+    "gendEqal2021": "0.6250",
+    "econ": "0.5760",
+    "education": "0.9470",
+    "health": "0.9750",
+    "polit": 0
+  },
+  {
+    "country": "Qatar",
+    "gendEqal2021": "0.6240",
+    "econ": "0.5040",
+    "education": "0.9900",
+    "health": "0.9480",
+    "polit": "0.0530"
+  },
+  {
+    "country": "Kuwait",
+    "gendEqal2021": "0.6210",
+    "econ": "0.4980",
+    "education": "0.9970",
+    "health": "0.9680",
+    "polit": "0.0220"
+  },
+  {
+    "country": "Morocco",
+    "gendEqal2021": "0.6120",
+    "econ": "0.4070",
+    "education": "0.9560",
+    "health": "0.9610",
+    "polit": "0.1260"
+  },
+  {
+    "country": "Oman",
+    "gendEqal2021": "0.6080",
+    "econ": "0.4530",
+    "education": "0.9770",
+    "health": "0.9610",
+    "polit": "0.0410"
+  },
+  {
+    "country": "Mauritania",
+    "gendEqal2021": "0.6060",
+    "econ": "0.4400",
+    "education": "0.8790",
+    "health": "0.9570",
+    "polit": "0.1470"
+  },
+  {
+    "country": "Saudi Arabia",
+    "gendEqal2021": "0.6030",
+    "econ": "0.3900",
+    "education": "0.9800",
+    "health": "0.9640",
+    "polit": "0.0770"
+  },
+  {
+    "country": "Chad",
+    "gendEqal2021": "0.5930",
+    "econ": "0.6930",
+    "education": "0.5890",
+    "health": "0.9700",
+    "polit": "0.1180"
+  },
+  {
+    "country": "Mali",
+    "gendEqal2021": "0.5910",
+    "econ": "0.4750",
+    "education": "0.7570",
+    "health": "0.9590",
+    "polit": "0.1720"
+  },
+  {
+    "country": "Iran",
+    "gendEqal2021": "0.5820",
+    "econ": "0.3750",
+    "education": "0.9530",
+    "health": "0.9630",
+    "polit": "0.0360"
+  },
+  {
+    "country": "DR Congo",
+    "gendEqal2021": "0.5760",
+    "econ": "0.5710",
+    "education": "0.6580",
+    "health": "0.9760",
+    "polit": "0.0990"
+  },
+  {
+    "country": "Syria",
+    "gendEqal2021": "0.5680",
+    "econ": "0.2850",
+    "education": "0.9530",
+    "health": "0.9650",
+    "polit": "0.0670"
+  },
+  {
+    "country": "Pakistan",
+    "gendEqal2021": "0.5560",
+    "econ": "0.3160",
+    "education": "0.8110",
+    "health": "0.9440",
+    "polit": "0.1540"
+  },
+  {
+    "country": "Iraq",
+    "gendEqal2021": "0.5350",
+    "econ": "0.2280",
+    "education": "0.8070",
+    "health": "0.9680",
+    "polit": "0.1360"
+  },
+  {
+    "country": "Yemen",
+    "gendEqal2021": "0.4920",
+    "econ": "0.2820",
+    "education": "0.7170",
+    "health": "0.9680",
+    "polit": "0.0010"
+  },
+  {
+    "country": "Afghanistan",
+    "gendEqal2021": "0.4440",
+    "econ": "0.1800",
+    "education": "0.5140",
+    "health": "0.9520",
+    "polit": "0.1320"
+  }
+]
