@@ -55,13 +55,13 @@ The following ten (10) tables are currently in the project SQL database:
 
 * Using a ***WITH*** query, we created a common table expression (CTE) named **country_year** -- this table represents all the distinct combinations of country code/name and data year by performing a ***cross join*** between the ISO3_codes table and data_year table (See Fig. 3).
 
-* By performing ***left joins*** between the country_code_year column of the country_year (i.e, CTE query explained above) and country_code_year columns of all the source data tables, we created the [merged dataset](/Database/Expat_Indicator_Dataset1.csv) to be used for our machine learning model (See Figure 3).
+* By performing ***left joins*** between the country_code_year column of the country_year (i.e, CTE query explained above) and country_code_year columns of all the source data tables, we created the [merged dataset](/Database/ExPat_Indicator_Dataset1.csv) to be used for our machine learning model (See Figure 3).
 
 ![image](https://user-images.githubusercontent.com/99936542/179379380-6578122e-c706-4bbc-8e62-7d29fd0582b7.png)
 
 <b>Fig.3 - SQL code to create ExPat Indicator Dataset</b>
 
-The project database interfaces with the project by using the merged source data (i.e., ExPat Indicator Dataset) as the input dataset for the machine learning model. A connection string via the **psycopg2-binary** package can potentially be used to connect PostgresSQL and Python (see Figure 4). For testing purposes, however, we are currently importing the CSV version of the dataset into Python for ease of use.
+The project database interfaces with the project by using the merged source data (i.e., ExPat Indicator Dataset) as the input data for the machine learning model. A connection string via the **psycopg2-binary** package can potentially be used to connect PostgresSQL and Python (see Figure 4). For testing purposes, however, we are currently importing the CSV version of the dataset into Python for ease of use.
 
 ![image](https://user-images.githubusercontent.com/99936542/179379590-92e356e9-e763-495d-8680-dae08e1a7ff8.png)
 
