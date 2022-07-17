@@ -39,7 +39,7 @@ The following ten (10) tables are currently in the project SQL database:
 * There are seven static tables in the database -- our 5 source datasets, a list of ISO3 country codes, and a list of all available years of data. These tables were created using the [Create_Schema SQL script](/Database/create_schema.sql) and importing the following CSV tables:
 
     * [Economy_HDI](/Database/2_Indicator_Source_Datasets/Economy_Indicator_HDI.csv)
-    * [Education_MYS](/Database/2_Indicator_Source_Datasets/Education_Indicator_Means_Years_Schooling.csv)
+    * [Education_MYS](/Database/2_Indicator_Source_Datasets/Education_Indicator_Mean_Years_Schooling.csv)
     * [Health_HALE](/Database/2_Indicator_Source_Datasets/Health_Indicator_HALE.csv)
     * [Lifestyle_FRI_PES](/Database/2_Indicator_Source_Datasets/Lifestyle_Indicator_Freedom_of_Religion_index_&_Percent_English_Speakers.csv)
     * [Poltical_DI](/Database/2_Indicator_Source_Datasets/Political_Indicator_Wiki_DemocracyIndex.csv)
