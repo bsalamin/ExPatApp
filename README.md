@@ -8,10 +8,11 @@ This app will perform an analysis to help potential expatriates (expats) discove
 
 ## Communication and Technology Protocols
 - GitHub: contains final documents and code relevant to the app
-- Google Drive: sandbox testing site for all gathered data, code, etc. including Google Colab
+- Google Drive: sandbox testing site for all gathered data, code, etc. including Colab and Slides
+- Microsoft Excel: retrieve and manipulate csv files from web
 - Postgres: holds datasets and SQL queries
 - Python libraries: Pandas, scikit-learn, etc.
-- *Tableau: data visualization*
+- Tableau: data visualization
 
 ## Data Sources
 The data for this analysis will be sourced from government agencies, international organizations (e.g., the UN and OECD), non-governmental organizations (NGOs), as well as private sources that may have relevant data for traveling, culture, and economics (Yelp, Google, etc.). 
@@ -68,13 +69,47 @@ The project database interfaces with the project by using the merged source data
 <b>Fig.4 - Python code to potentially connect the database to the machine learning model</b>
 
 ### Machine Learning Model
-- We need to decide if we're going to include user input or just similar countries
+The analysis includes an unsupervised machine learning model with a focus on clustering.
+- DESCRIPTION OF PRELIMINARY DATA PREPROCESSING: In order to prepare the data for a machine-learning algorithm, we dropped all unnecessary columns for analysis (including year and country name); after this was done, we used the raw data to compile a DataFrame the rows of which were the most current index measures available for a specific country, so that the data would be most relevant to an expat moving to that country in 2022. Then, once the latest data was collected, we proceeded to rescale our numerical indices for PCA analysis.
+- DESCRIPTION OF PRELIMINARY FEATURE ENGINEERING: Since we built our dataset out of indices we already knew we were interested in compiling for each country, feature engineering was fairly minimal; as mentioned above, we needed to drop columns variation across which would not support our clusters, like year. In addition, our choice to create “latest” country profiles for each country out of some data that might be out of date inspired us to create a “fudge factor” parameter, which functions as follows: any time old data must be substituted for new, up-to-date data, the fudge factor counter becomes a more negative number; for example, if a country profile row needed to substitute in 2021 data in one column and 2015 data in another column (in lieu of up-to-date 2022 data), the fudge factor would stand at -8 for that country (-7 for the 2015 data and minus another one for the 2021 data). This captured the spirit of our algorithm because positive variation in the fudge factor tracks a positive/desirable feature of a country for expats: namely, that up-to-date data is available for that country.
+- DESCRIPTION OF HOW DATA WAS SPLIT INTO TRAINING AND TESTING SETS: Because we employed an unsupervised ML model, training and testing sets were not necessary for us.
+- EXPLANATION OF MODEL CHOICE, INCLUDING LIMITATIONS AND BENEFITS: Our choice of an unsupervised machine learning model for our project has one clear downside, which is that it is difficult to ascertain the “accuracy” of our suggestions for users; without supervised learning (aka a verifiable outcome, training & testing sets, etc.) it is difficult to verify our cluster output. There are, however, helpful benefits to this unsupervised approach: countries that are surprisingly similar to the US can be revealed without preconception (for example, Estonia, which would not have been my first thought!), and in our eventual project dashboard the user can dig down into some nitty-gritty comparisons between countries in the cluster the ML algorithm returns for them. Also, since our ML algorithm uses hierarchical clustering rather than K-Means, it doesn’t depend on a random seed, which seems appropriate for a big decision like which country to move to.
+
+*Note: For this latest analysis we dropped the column related to “percent of English speakers” in a country, because the data was missing information from so many countries. Our group agreed, however, that this is an important data point to consider for expats, and we found that there is better and more up-to-date data available for this measure using the CIA World Factbook; we will add this back in in future analysis.*
+
 ## Results
-- Include clusters similar to US and/or outcome from user input
+The results of the machine learning model produced 11 clusters.
+![clusters_20220716](https://user-images.githubusercontent.com/99286327/179422217-85f4d6c3-f47d-46b0-8fa0-71f7a357bd04.png)
+
+The results of the model also indicate 19 countries in the same cluster as the US:
+1.	Albania
+2.	Argentina
+3.	Chile
+4.	Costa Rica
+5.	Dominican Republic
+6.	Ecuador
+7.	Estonia
+8.	Italy
+9.	Jamaica
+10. Lithuania
+11. Latvia
+12. Mauritius
+13. Panama
+14. Peru
+15. Portugal
+16. Romania
+17. Spain
+18. Trinidad and Tobago
+19. Uruguay
+
+
 
 ## Summary
-From analyzing the data, this project intends to answer the question of which countries are most suitable for emigration from America.
-- Insert info and screenshots from ML output
+After analyzing the data and applying an unsupervised machine learning model, the results indicate which countries are most suitable for emigration from America. Users can then utilize a Tableau dashboard, which will include additional information about the countries in the clusters, and apply filtering to gain insight into their prospective new countries.
+
+### Dashboard
+- Placeholder: Insert link to Tableau Public
+
 
 
 
