@@ -1,0 +1,1045 @@
+country_code,country,hdi_code,Year,region,mys
+DEU,Germany,Very High,2019,,14.15168
+DEU,Germany,Very High,2016,,14.13215
+DEU,Germany,Very High,2017,,14.13215
+DEU,Germany,Very High,2018,,14.13215
+DEU,Germany,Very High,2015,,14.08202
+USA,United States,Very High,2017,,13.41344
+USA,United States,Very High,2018,,13.41344
+USA,United States,Very High,2019,,13.41344
+CHE,Switzerland,Very High,2018,,13.38081241
+CHE,Switzerland,Very High,2019,,13.38081241
+CAN,Canada,Very High,2019,,13.36610479
+USA,United States,Very High,2016,,13.32078
+CAN,Canada,Very High,2017,,13.31536312
+CAN,Canada,Very High,2018,,13.31536312
+USA,United States,Very High,2015,,13.28915
+CAN,Canada,Very High,2016,,13.28188945
+GBR,United Kingdom,Very High,2019,,13.24287
+CAN,Canada,Very High,2015,,13.2385259
+EST,Estonia,Very High,2019,,13.14306146
+GEO,Georgia,Very High,2019,ECA,13.13296
+CHE,Switzerland,Very High,2017,,13.1033615
+CHE,Switzerland,Very High,2015,,13.08527255
+LTU,Lithuania,Very High,2019,,13.07721
+EST,Estonia,Very High,2016,,13.06640574
+EST,Estonia,Very High,2018,,13.06363996
+CHE,Switzerland,Very High,2016,,13.04067411
+ISR,Israel,Very High,2019,,13.0348541
+LVA,Latvia,Very High,2018,,13.03085
+LVA,Latvia,Very High,2019,,13.03085
+EST,Estonia,Very High,2017,,13.0290394
+LVA,Latvia,Very High,2017,,12.9735
+LTU,Lithuania,Very High,2017,,12.96103366
+LTU,Lithuania,Very High,2018,,12.96103366
+ISR,Israel,Very High,2016,,12.95921504
+ISR,Israel,Very High,2017,,12.95921504
+ISR,Israel,Very High,2018,,12.95921504
+GBR,United Kingdom,Very High,2018,,12.95067
+LVA,Latvia,Very High,2016,,12.94183
+EST,Estonia,Very High,2015,,12.94
+ISR,Israel,Very High,2015,,12.91577
+NOR,Norway,Very High,2019,,12.89775
+GBR,United Kingdom,Very High,2016,,12.88865306
+GBR,United Kingdom,Very High,2017,,12.88865306
+LTU,Lithuania,Very High,2016,,12.8708098
+JPN,Japan,Very High,2019,,12.85
+NOR,Norway,Very High,2018,,12.84797
+FIN,Finland,Very High,2018,,12.82413
+FIN,Finland,Very High,2019,,12.82413
+GEO,Georgia,Very High,2016,ECA,12.81457
+GEO,Georgia,Very High,2017,ECA,12.81457
+GEO,Georgia,Very High,2018,ECA,12.81457
+JPN,Japan,Very High,2018,,12.8
+GBR,United Kingdom,Very High,2015,,12.79023577
+PLW,Palau,Very High,2015,EAP,12.785
+NOR,Norway,Very High,2017,,12.78349
+NZL,New Zealand,Very High,2019,,12.78207732
+ISL,Iceland,Very High,2019,,12.77278684
+FIN,Finland,Very High,2017,,12.769065
+LVA,Latvia,Very High,2015,,12.76117899
+LTU,Lithuania,Very High,2015,,12.7572513
+JPN,Japan,Very High,2017,,12.75
+AUS,Australia,Very High,2019,,12.72469119
+CZE,Czechia,Very High,2019,,12.72238228
+GEO,Georgia,Very High,2015,ECA,12.716455
+FIN,Finland,Very High,2016,,12.714
+CZE,Czechia,Very High,2018,,12.71032672
+JPN,Japan,Very High,2016,,12.7
+SVK,Slovakia,Very High,2019,,12.69315651
+PLW,Palau,Very High,2016,EAP,12.6872
+AUS,Australia,Very High,2017,,12.68304986
+AUS,Australia,Very High,2018,,12.68304986
+FIN,Finland,Very High,2015,,12.67839
+NZL,New Zealand,Very High,2017,,12.678166
+NZL,New Zealand,Very High,2018,,12.678166
+CZE,Czechia,Very High,2015,,12.6771179
+IRL,Ireland,Very High,2019,,12.6663305
+CZE,Czechia,Very High,2017,,12.66092407
+SVN,Slovenia,Very High,2019,,12.65874
+DNK,Denmark,Very High,2018,,12.6423038
+SVK,Slovakia,Very High,2018,,12.63874745
+CZE,Czechia,Very High,2016,,12.6203215
+DNK,Denmark,Very High,2019,,12.61380326
+SVK,Slovakia,Very High,2017,,12.60562251
+PLW,Palau,Very High,2017,EAP,12.5893
+AUS,Australia,Very High,2016,,12.58024488
+DNK,Denmark,Very High,2017,,12.57713469
+NOR,Norway,Very High,2016,,12.56681764
+NZL,New Zealand,Very High,2016,,12.56248673
+AUT,Austria,Very High,2015,,12.56071355
+AUT,Austria,Very High,2016,,12.55851074
+AUT,Austria,Very High,2017,,12.55851074
+AUT,Austria,Very High,2018,,12.55851074
+SVK,Slovakia,Very High,2016,,12.55155945
+SWE,Sweden,Very High,2019,,12.54847
+LIE,Liechtenstein,Very High,2016,,12.54845788
+LIE,Liechtenstein,Very High,2017,,12.54845788
+LIE,Liechtenstein,Very High,2018,,12.54845788
+AUT,Austria,Very High,2019,,12.5461436
+LIE,Liechtenstein,Very High,2019,,12.53854
+ISL,Iceland,Very High,2018,,12.53666119
+AUS,Australia,Very High,2015,,12.53197669
+DNK,Denmark,Very High,2015,,12.53135739
+IRL,Ireland,Very High,2016,,12.531
+IRL,Ireland,Very High,2017,,12.52629458
+IRL,Ireland,Very High,2018,,12.52629458
+NOR,Norway,Very High,2015,,12.5252107
+DNK,Denmark,Very High,2016,,12.52222368
+PLW,Palau,Very High,2018,EAP,12.49143
+PLW,Palau,Very High,2019,EAP,12.49143
+POL,Poland,Very High,2019,,12.47232
+SVN,Slovenia,Very High,2018,,12.46605955
+JPN,Japan,Very High,2015,,12.464
+SVK,Slovakia,Very High,2015,,12.45251025
+SWE,Sweden,Very High,2016,,12.42604923
+SWE,Sweden,Very High,2017,,12.42604923
+SWE,Sweden,Very High,2018,,12.42604923
+NZL,New Zealand,Very High,2015,,12.42233065
+NLD,Netherlands,Very High,2019,,12.4148
+SWE,Sweden,Very High,2015,,12.36667344
+ISL,Iceland,Very High,2016,,12.36377637
+ISL,Iceland,Very High,2017,,12.36377637
+LIE,Liechtenstein,Very High,2015,,12.35198793
+NLD,Netherlands,Very High,2018,,12.345725
+IRL,Ireland,Very High,2015,,12.31397813
+LUX,Luxembourg,Very High,2019,,12.31145
+BLR,Belarus,Very High,2018,ECA,12.30584324
+BLR,Belarus,Very High,2019,ECA,12.30584324
+POL,Poland,Very High,2017,,12.29398111
+POL,Poland,Very High,2018,,12.29398111
+HKG,"Hong Kong, China (SAR)",Very High,2018,,12.27996
+HKG,"Hong Kong, China (SAR)",Very High,2019,,12.27996
+NLD,Netherlands,Very High,2017,,12.27665
+POL,Poland,Very High,2016,,12.2734309
+SVN,Slovenia,Very High,2017,,12.27337909
+BLR,Belarus,Very High,2016,ECA,12.2638
+BLR,Belarus,Very High,2017,ECA,12.2638
+NLD,Netherlands,Very High,2016,,12.22524
+KOR,Korea (Republic of),Very High,2018,,12.21376462
+KOR,Korea (Republic of),Very High,2019,,12.21376462
+POL,Poland,Very High,2015,,12.2019762
+LUX,Luxembourg,Very High,2017,,12.19580174
+LUX,Luxembourg,Very High,2018,,12.19580174
+BLR,Belarus,Very High,2015,ECA,12.1920525
+ISL,Iceland,Very High,2015,,12.19089155
+KOR,Korea (Republic of),Very High,2017,,12.18500103
+NLD,Netherlands,Very High,2015,,12.18221
+HKG,"Hong Kong, China (SAR)",Very High,2017,,12.17378
+RUS,Russian Federation,Very High,2018,,12.17244258
+RUS,Russian Federation,Very High,2019,,12.17244258
+CYP,Cyprus,Very High,2018,,12.17123
+CYP,Cyprus,Very High,2019,,12.17123
+KOR,Korea (Republic of),Very High,2016,,12.16495115
+,Very high human development,,2019,,12.15191294
+KOR,Korea (Republic of),Very High,2015,,12.11633277
+ARE,United Arab Emirates,Very High,2017,AS,12.11122
+ARE,United Arab Emirates,Very High,2018,AS,12.11122
+ARE,United Arab Emirates,Very High,2019,AS,12.11122
+CYP,Cyprus,Very High,2016,,12.10394114
+CYP,Cyprus,Very High,2017,,12.10394114
+,Very high human development,,2018,,12.10222521
+LUX,Luxembourg,Very High,2016,,12.08015348
+HKG,"Hong Kong, China (SAR)",Very High,2016,,12.0676
+,Very high human development,,2017,,12.06210018
+BEL,Belgium,Very High,2019,,12.05027
+SVN,Slovenia,Very High,2016,,12.02874
+RUS,Russian Federation,Very High,2017,,12.01999
+BEL,Belgium,Very High,2017,,12.01187
+BEL,Belgium,Very High,2018,,12.01187
+,Very high human development,,2016,,11.98479904
+HUN,Hungary,Very High,2019,,11.96329
+LUX,Luxembourg,Very High,2015,,11.95083323
+,Very high human development,,2015,,11.91938279
+SVN,Slovenia,Very High,2015,,11.90761223
+HKG,"Hong Kong, China (SAR)",Very High,2015,,11.8995
+KAZ,Kazakhstan,Very High,2019,ECA,11.8949
+HUN,Hungary,Very High,2017,,11.88941481
+HUN,Hungary,Very High,2018,,11.88941481
+CYP,Cyprus,Very High,2015,,11.88618506
+HUN,Hungary,Very High,2015,,11.84778798
+HUN,Hungary,Very High,2016,,11.84778798
+RUS,Russian Federation,Very High,2016,,11.84006269
+UZB,Uzbekistan,High,2019,ECA,11.8072
+RUS,Russian Federation,Very High,2015,,11.79596563
+CUB,Cuba,High,2019,LAC,11.7907808
+KAZ,Kazakhstan,Very High,2018,ECA,11.784
+BEL,Belgium,Very High,2016,,11.78389183
+KAZ,Kazakhstan,Very High,2017,ECA,11.762
+UZB,Uzbekistan,High,2018,ECA,11.75646
+CUB,Cuba,High,2017,LAC,11.7507808
+CUB,Cuba,High,2018,LAC,11.7507808
+KAZ,Kazakhstan,Very High,2016,ECA,11.74
+MDA,Moldova (Republic of),High,2019,ECA,11.70817
+UZB,Uzbekistan,High,2017,ECA,11.70572
+ARM,Armenia,High,2015,ECA,11.69998
+BEL,Belgium,Very High,2015,,11.68955901
+KAZ,Kazakhstan,Very High,2015,ECA,11.676
+SGP,Singapore,Very High,2016,EAP,11.64641
+SGP,Singapore,Very High,2015,EAP,11.62752
+SGP,Singapore,Very High,2018,EAP,11.62461
+SGP,Singapore,Very High,2019,EAP,11.62461
+MNE,Montenegro,Very High,2019,ECA,11.58926489
+MDA,Moldova (Republic of),High,2015,ECA,11.57737
+CUB,Cuba,High,2016,LAC,11.56872782
+MDA,Moldova (Republic of),High,2016,ECA,11.56275474
+MDA,Moldova (Republic of),High,2017,ECA,11.56275474
+MDA,Moldova (Republic of),High,2018,ECA,11.56275474
+MNE,Montenegro,Very High,2018,ECA,11.52176593
+FRA,France,Very High,2015,,11.51082034
+ARM,Armenia,High,2016,ECA,11.50086
+FRA,France,Very High,2019,,11.4795
+MNE,Montenegro,Very High,2017,ECA,11.45426697
+HRV,Croatia,Very High,2019,,11.44932
+BHS,Bahamas,Very High,2019,LAC,11.43692
+UKR,Ukraine,High,2015,ECA,11.43075152
+UKR,Ukraine,High,2016,ECA,11.42243824
+FRA,France,Very High,2017,,11.41703591
+FRA,France,Very High,2018,,11.41703591
+UKR,Ukraine,High,2017,ECA,11.41412497
+BHS,Bahamas,Very High,2018,LAC,11.41215667
+UKR,Ukraine,High,2018,ECA,11.4058117
+HRV,Croatia,Very High,2017,,11.40518282
+HRV,Croatia,Very High,2018,,11.40518282
+SGP,Singapore,Very High,2017,EAP,11.39785
+UKR,Ukraine,High,2019,ECA,11.39749842
+UZB,Uzbekistan,High,2016,ECA,11.38843
+BHS,Bahamas,Very High,2017,LAC,11.38739333
+MNE,Montenegro,Very High,2016,ECA,11.38676801
+CUB,Cuba,High,2015,LAC,11.38667483
+UZB,Uzbekistan,High,2015,ECA,11.37418
+BHS,Bahamas,Very High,2016,LAC,11.36263
+HRV,Croatia,Very High,2016,,11.36121579
+BGR,Bulgaria,Very High,2017,,11.36009
+BGR,Bulgaria,Very High,2018,,11.36009
+BGR,Bulgaria,Very High,2019,,11.36009
+FRA,France,Very High,2016,,11.35086
+MNE,Montenegro,Very High,2015,ECA,11.32641412
+MLT,Malta,Very High,2019,,11.32613
+BGR,Bulgaria,Very High,2016,,11.32017
+HRV,Croatia,Very High,2015,,11.31741825
+ARM,Armenia,High,2017,ECA,11.30174
+ARM,Armenia,High,2018,ECA,11.30174
+ARM,Armenia,High,2019,ECA,11.30174
+BHS,Bahamas,Very High,2015,LAC,11.29194714
+MLT,Malta,Very High,2017,,11.28811066
+MLT,Malta,Very High,2018,,11.28811066
+MLT,Malta,Very High,2016,,11.28811
+BGR,Bulgaria,Very High,2015,,11.27833
+TON,Tonga,High,2019,EAP,11.24
+MLT,Malta,Very High,2015,,11.21442263
+TON,Tonga,High,2018,EAP,11.21
+SRB,Serbia,Very High,2019,ECA,11.19411
+SRB,Serbia,Very High,2018,ECA,11.18071012
+TON,Tonga,High,2017,EAP,11.18
+TON,Tonga,High,2015,EAP,11.15
+TON,Tonga,High,2016,EAP,11.15
+SRB,Serbia,Very High,2017,ECA,11.13745
+SRB,Serbia,Very High,2016,ECA,11.12720475
+KGZ,Kyrgyzstan,Medium,2019,ECA,11.10481377
+ROU,Romania,Very High,2019,,11.0708
+TTO,Trinidad and Tobago,High,2019,LAC,11.034
+TTO,Trinidad and Tobago,High,2017,LAC,11.02594007
+TTO,Trinidad and Tobago,High,2018,LAC,11.02594007
+SRB,Serbia,Very High,2015,ECA,11.01303853
+TTO,Trinidad and Tobago,High,2016,LAC,10.98748388
+ROU,Romania,Very High,2018,,10.97836
+ROU,Romania,Very High,2016,,10.9783564
+ROU,Romania,Very High,2017,,10.9783564
+TTO,Trinidad and Tobago,High,2015,LAC,10.94916181
+ARG,Argentina,Very High,2019,LAC,10.94060102
+ARE,United Arab Emirates,Very High,2016,AS,10.92346
+LKA,Sri Lanka,High,2015,SA,10.91508197
+FJI,Fiji,High,2019,EAP,10.90163
+MHL,Marshall Islands,High,2017,EAP,10.8856786
+MHL,Marshall Islands,High,2018,EAP,10.8856786
+MHL,Marshall Islands,High,2019,EAP,10.8856786
+FJI,Fiji,High,2018,EAP,10.884
+ROU,Romania,Very High,2015,,10.88301485
+KGZ,Kyrgyzstan,Medium,2018,ECA,10.88040163
+KGZ,Kyrgyzstan,Medium,2017,ECA,10.87468413
+KGZ,Kyrgyzstan,Medium,2016,ECA,10.86896663
+MHL,Marshall Islands,High,2016,EAP,10.8639507
+KGZ,Kyrgyzstan,Medium,2015,ECA,10.86324913
+MHL,Marshall Islands,High,2015,EAP,10.84226617
+FJI,Fiji,High,2017,EAP,10.837
+FJI,Fiji,High,2015,EAP,10.79
+FJI,Fiji,High,2016,EAP,10.79
+WSM,Samoa,High,2019,EAP,10.77921
+TJK,Tajikistan,Medium,2019,ECA,10.7337
+TJK,Tajikistan,Medium,2018,ECA,10.67072
+ARE,United Arab Emirates,Very High,2015,AS,10.64821635
+BRB,Barbados,Very High,2019,LAC,10.64244442
+LKA,Sri Lanka,High,2018,SA,10.63257
+LKA,Sri Lanka,High,2019,SA,10.63257
+TJK,Tajikistan,Medium,2017,ECA,10.60774
+GRC,Greece,Very High,2015,,10.60374533
+WSM,Samoa,High,2016,EAP,10.59494988
+WSM,Samoa,High,2017,EAP,10.59494988
+WSM,Samoa,High,2018,EAP,10.59494988
+AND,Andorra,Very High,2015,,10.59014
+AND,Andorra,Very High,2016,,10.59014
+AZE,Azerbaijan,High,2017,ECA,10.58628
+CHL,Chile,Very High,2019,LAC,10.58295
+AZE,Azerbaijan,High,2018,ECA,10.57543
+AZE,Azerbaijan,High,2019,ECA,10.57543
+WSM,Samoa,High,2015,EAP,10.57394856
+LKA,Sri Lanka,High,2017,SA,10.56993
+ARG,Argentina,Very High,2017,LAC,10.56496472
+ARG,Argentina,Very High,2018,LAC,10.56496472
+BRB,Barbados,Very High,2016,LAC,10.5569
+BRB,Barbados,Very High,2017,LAC,10.5569
+BRB,Barbados,Very High,2018,LAC,10.5569
+GRC,Greece,Very High,2019,,10.55207
+TJK,Tajikistan,Medium,2016,ECA,10.54476
+GRC,Greece,Very High,2017,,10.53957898
+GRC,Greece,Very High,2018,,10.53957898
+BRB,Barbados,Very High,2015,LAC,10.53190904
+AND,Andorra,Very High,2017,,10.51871
+JOR,Jordan,High,2019,AS,10.518
+AZE,Azerbaijan,High,2015,ECA,10.50663
+AZE,Azerbaijan,High,2016,ECA,10.50663
+ARG,Argentina,Very High,2016,LAC,10.50514288
+AND,Andorra,Very High,2018,,10.50176
+AND,Andorra,Very High,2019,,10.50176
+TJK,Tajikistan,Medium,2015,ECA,10.5
+LKA,Sri Lanka,High,2016,SA,10.49987
+JOR,Jordan,High,2018,AS,10.452
+CHL,Chile,Very High,2017,LAC,10.4469855
+CHL,Chile,Very High,2018,LAC,10.4469855
+ARG,Argentina,Very High,2015,LAC,10.44565977
+JOR,Jordan,High,2016,AS,10.386
+JOR,Jordan,High,2017,AS,10.386
+ITA,Italy,Very High,2019,,10.37955
+MYS,Malaysia,Very High,2019,EAP,10.37283
+,Europe and Central Asia,,2019,,10.363461
+IRN,Iran (Islamic Republic of),High,2019,SA,10.34749
+CHL,Chile,Very High,2016,LAC,10.34354865
+,Europe and Central Asia,,2018,,10.34328981
+VEN,Venezuela (Bolivarian Republic of),High,2016,LAC,10.32342591
+VEN,Venezuela (Bolivarian Republic of),High,2017,LAC,10.32342591
+JOR,Jordan,High,2015,AS,10.32
+ITA,Italy,Very High,2018,,10.31232
+VEN,Venezuela (Bolivarian Republic of),High,2018,LAC,10.30728
+VEN,Venezuela (Bolivarian Republic of),High,2019,LAC,10.30728
+,Europe and Central Asia,,2017,,10.28625265
+TKM,Turkmenistan,High,2018,ECA,10.27379667
+TKM,Turkmenistan,High,2019,ECA,10.27379667
+GRC,Greece,Very High,2016,,10.2641
+ESP,Spain,Very High,2018,,10.25178
+ESP,Spain,Very High,2019,,10.25178
+MNG,Mongolia,High,2019,EAP,10.2512725
+ITA,Italy,Very High,2017,,10.24509
+ZAF,South Africa,High,2018,SSA,10.24064634
+ZAF,South Africa,High,2019,SSA,10.24064634
+PAN,Panama,Very High,2019,LAC,10.24
+SAU,Saudi Arabia,Very High,2018,AS,10.22517
+SAU,Saudi Arabia,Very High,2019,AS,10.22517
+,Europe and Central Asia,,2016,,10.20498316
+CHL,Chile,Very High,2015,LAC,10.19916501
+ITA,Italy,Very High,2016,,10.18911
+ESP,Spain,Very High,2017,,10.18381
+MNG,Mongolia,High,2018,EAP,10.17198276
+PAN,Panama,Very High,2017,LAC,10.17
+PAN,Panama,Very High,2018,LAC,10.17
+MYS,Malaysia,Very High,2016,EAP,10.15999793
+MYS,Malaysia,Very High,2017,EAP,10.15999793
+MYS,Malaysia,Very High,2018,EAP,10.15999793
+MNG,Mongolia,High,2017,EAP,10.155407
+ZAF,South Africa,High,2016,SSA,10.15481
+ZAF,South Africa,High,2017,SSA,10.15481
+MYS,Malaysia,Very High,2015,EAP,10.15175994
+IRN,Iran (Islamic Republic of),High,2018,SA,10.14976
+ALB,Albania,High,2019,ECA,10.14573
+,Europe and Central Asia,,2015,,10.13928896
+ZAF,South Africa,High,2015,SSA,10.13415
+ESP,Spain,Very High,2016,,10.11584
+MNG,Mongolia,High,2016,EAP,10.11131487
+SAU,Saudi Arabia,Very High,2017,AS,10.08473
+ITA,Italy,Very High,2015,,10.08141436
+VEN,Venezuela (Bolivarian Republic of),High,2015,LAC,10.07703
+ALB,Albania,High,2017,ECA,10.0546184
+ALB,Albania,High,2018,ECA,10.0546184
+MNG,Mongolia,High,2015,EAP,10.05100882
+PAN,Panama,Very High,2016,LAC,10.03
+ALB,Albania,High,2015,ECA,10.02511
+ALB,Albania,High,2016,ECA,10.02511
+IRN,Iran (Islamic Republic of),High,2016,SA,10.01153929
+IRN,Iran (Islamic Republic of),High,2017,SA,10.01153929
+SYC,Seychelles,High,2019,SSA,9.992045
+ESP,Spain,Very High,2015,,9.97406
+SAU,Saudi Arabia,Very High,2016,AS,9.94429
+IRN,Iran (Islamic Republic of),High,2015,SA,9.925857185
+BLZ,Belize,High,2019,LAC,9.921731875
+SYC,Seychelles,High,2018,SSA,9.885125929
+PAN,Panama,Very High,2015,LAC,9.854
+BIH,Bosnia and Herzegovina,High,2018,ECA,9.81787
+BIH,Bosnia and Herzegovina,High,2019,ECA,9.81787
+MKD,North Macedonia,High,2019,ECA,9.812715
+SAU,Saudi Arabia,Very High,2015,AS,9.80385
+JAM,Jamaica,High,2017,LAC,9.796912678
+TKM,Turkmenistan,High,2015,ECA,9.796361667
+BLZ,Belize,High,2017,LAC,9.795835793
+BLZ,Belize,High,2018,LAC,9.795835793
+SYC,Seychelles,High,2017,SSA,9.785627411
+TKM,Turkmenistan,High,2016,ECA,9.78
+TKM,Turkmenistan,High,2017,ECA,9.78
+JAM,Jamaica,High,2018,LAC,9.764981339
+BIH,Bosnia and Herzegovina,High,2017,ECA,9.761285
+MKD,North Macedonia,High,2018,ECA,9.740858939
+QAT,Qatar,Very High,2015,AS,9.736750035
+JAM,Jamaica,High,2019,LAC,9.73305
+OMN,Oman,Very High,2017,AS,9.731845912
+OMN,Oman,Very High,2018,AS,9.731845912
+OMN,Oman,Very High,2019,AS,9.731845912
+QAT,Qatar,Very High,2019,AS,9.73144
+BIH,Bosnia and Herzegovina,High,2016,ECA,9.7047
+PER,Peru,High,2018,LAC,9.69633
+PER,Peru,High,2019,LAC,9.69633
+SYC,Seychelles,High,2016,SSA,9.686128893
+MKD,North Macedonia,High,2017,ECA,9.680116533
+BLZ,Belize,High,2016,LAC,9.671537197
+QAT,Qatar,Very High,2016,AS,9.66734
+QAT,Qatar,Very High,2017,AS,9.66734
+QAT,Qatar,Very High,2018,AS,9.66734
+JAM,Jamaica,High,2016,LAC,9.652130717
+OMN,Oman,Very High,2016,AS,9.638926626
+MKD,North Macedonia,High,2016,ECA,9.631956749
+SYC,Seychelles,High,2015,SSA,9.624682845
+BWA,Botswana,High,2019,SSA,9.56
+MKD,North Macedonia,High,2015,ECA,9.557405399
+BLZ,Belize,High,2015,LAC,9.548815816
+OMN,Oman,Very High,2015,AS,9.546007341
+MUS,Mauritius,Very High,2019,SSA,9.54
+PER,Peru,High,2017,LAC,9.5364475
+BHR,Bahrain,Very High,2019,AS,9.5192
+JAM,Jamaica,High,2015,LAC,9.509488391
+MUS,Mauritius,Very High,2018,SSA,9.43
+BHR,Bahrain,Very High,2016,AS,9.411832983
+BHR,Bahrain,Very High,2017,AS,9.411832983
+BHR,Bahrain,Very High,2018,AS,9.411832983
+BWA,Botswana,High,2018,SSA,9.403320236
+PHL,Philippines,High,2018,EAP,9.393091398
+PHL,Philippines,High,2019,EAP,9.393091398
+PER,Peru,High,2016,LAC,9.376565
+PHL,Philippines,High,2017,EAP,9.359980699
+BWA,Botswana,High,2017,SSA,9.33
+PHL,Philippines,High,2016,EAP,9.32687
+BHR,Bahrain,Very High,2015,AS,9.320119045
+MUS,Mauritius,Very High,2016,SSA,9.32
+MUS,Mauritius,Very High,2017,SSA,9.32
+PHL,Philippines,High,2015,EAP,9.295908572
+ATG,Antigua and Barbuda,High,2018,LAC,9.293740746
+ATG,Antigua and Barbuda,High,2019,LAC,9.293740746
+PRT,Portugal,Very High,2019,,9.26347
+ATG,Antigua and Barbuda,High,2017,LAC,9.263093809
+SUR,Suriname,High,2019,LAC,9.261387
+BWA,Botswana,High,2016,SSA,9.253333333
+PRT,Portugal,Very High,2018,,9.24068
+BWA,Botswana,High,2015,SSA,9.233631794
+ATG,Antigua and Barbuda,High,2016,LAC,9.217008766
+PRT,Portugal,Very High,2017,,9.190958665
+ATG,Antigua and Barbuda,High,2015,LAC,9.171153001
+PSE,"Palestine, State of",High,2019,AS,9.16551
+BRN,Brunei Darussalam,Very High,2019,EAP,9.14
+SUR,Suriname,High,2017,LAC,9.125367134
+SUR,Suriname,High,2018,LAC,9.125367134
+PER,Peru,High,2015,LAC,9.115262574
+PRT,Portugal,Very High,2016,,9.11153
+PSE,"Palestine, State of",High,2016,AS,9.104641383
+PSE,"Palestine, State of",High,2017,AS,9.104641383
+PSE,"Palestine, State of",High,2018,AS,9.104641383
+BRN,Brunei Darussalam,Very High,2018,EAP,9.1
+MUS,Mauritius,Very High,2015,SSA,9.094
+SUR,Suriname,High,2016,LAC,9.069037707
+PRT,Portugal,Very High,2015,,9.060468015
+BRN,Brunei Darussalam,Very High,2016,EAP,9.06
+BRN,Brunei Darussalam,Very High,2017,EAP,9.06
+GRD,Grenada,High,2019,LAC,9.032104
+PSE,"Palestine, State of",High,2015,AS,9.021888463
+BRN,Brunei Darussalam,Very High,2015,EAP,9.02
+BOL,Bolivia (Plurinational State of),High,2018,LAC,9.017540839
+BOL,Bolivia (Plurinational State of),High,2019,LAC,9.017540839
+SUR,Suriname,High,2015,LAC,9.01270828
+BIH,Bosnia and Herzegovina,High,2015,ECA,9.00841
+URY,Uruguay,Very High,2019,LAC,8.92573
+BOL,Bolivia (Plurinational State of),High,2017,LAC,8.91507
+ECU,Ecuador,High,2019,LAC,8.907169486
+URY,Uruguay,Very High,2018,LAC,8.84796
+ECU,Ecuador,High,2018,LAC,8.833061452
+GRD,Grenada,High,2018,LAC,8.8
+VCT,Saint Vincent and the Grenadines,High,2019,LAC,8.784648
+BOL,Bolivia (Plurinational State of),High,2016,LAC,8.760734
+ECU,Ecuador,High,2017,LAC,8.75957
+MEX,Mexico,High,2019,LAC,8.75461
+CRI,Costa Rica,Very High,2019,LAC,8.74194
+URY,Uruguay,Very High,2017,LAC,8.728716877
+,Latin America and the Caribbean,,2019,,8.724189205
+URY,Uruguay,Very High,2016,LAC,8.71883158
+LBN,Lebanon,High,2019,AS,8.718636
+LBN,Lebanon,High,2017,AS,8.7
+LBN,Lebanon,High,2018,AS,8.7
+GAB,Gabon,High,2019,SSA,8.698
+ECU,Ecuador,High,2015,LAC,8.6958
+ECU,Ecuador,High,2016,LAC,8.68669
+URY,Uruguay,Very High,2015,LAC,8.684258911
+BOL,Bolivia (Plurinational State of),High,2015,LAC,8.68271
+GRD,Grenada,High,2015,LAC,8.675659824
+GRD,Grenada,High,2016,LAC,8.675659824
+GRD,Grenada,High,2017,LAC,8.675659824
+CRI,Costa Rica,Very High,2017,LAC,8.6671837
+CRI,Costa Rica,Very High,2018,LAC,8.6671837
+KNA,Saint Kitts and Nevis,High,2019,LAC,8.662745
+VCT,Saint Vincent and the Grenadines,High,2018,LAC,8.659620436
+VCT,Saint Vincent and the Grenadines,High,2017,LAC,8.616537748
+MEX,Mexico,High,2018,LAC,8.61157
+LBN,Lebanon,High,2016,AS,8.605452453
+CRI,Costa Rica,Very High,2015,LAC,8.6025
+MEX,Mexico,High,2015,LAC,8.601647772
+MEX,Mexico,High,2017,LAC,8.60085
+MEX,Mexico,High,2016,LAC,8.599900634
+,Latin America and the Caribbean,,2018,,8.596300985
+,Latin America and the Caribbean,,2017,,8.583961198
+CRI,Costa Rica,Very High,2016,LAC,8.58137
+VCT,Saint Vincent and the Grenadines,High,2016,LAC,8.573669401
+PRY,Paraguay,High,2019,LAC,8.53508
+,World,,2019,,8.532743734
+VCT,Saint Vincent and the Grenadines,High,2015,LAC,8.531014329
+PRY,Paraguay,High,2015,LAC,8.525292069
+LCA,Saint Lucia,High,2019,LAC,8.508470732
+,Latin America and the Caribbean,,2016,,8.503867494
+KNA,Saint Kitts and Nevis,High,2018,LAC,8.5
+LCA,Saint Lucia,High,2018,LAC,8.491487756
+LBN,Lebanon,High,2015,AS,8.490757663
+GUY,Guyana,Medium,2018,LAC,8.489781305
+GUY,Guyana,Medium,2019,LAC,8.489781305
+LCA,Saint Lucia,High,2017,LAC,8.474538679
+COL,Colombia,High,2019,LAC,8.46873
+ZWE,Zimbabwe,Medium,2019,SSA,8.4668
+GUY,Guyana,Medium,2017,LAC,8.46676505
+,World,,2018,,8.458927667
+LCA,Saint Lucia,High,2016,LAC,8.457623432
+PRY,Paraguay,High,2017,LAC,8.450439127
+PRY,Paraguay,High,2018,LAC,8.450439127
+GUY,Guyana,Medium,2016,LAC,8.443811194
+LCA,Saint Lucia,High,2015,LAC,8.440741948
+,World,,2017,,8.437082046
+,High human development,,2019,,8.430378198
+GUY,Guyana,Medium,2015,LAC,8.420919567
+GAB,Gabon,High,2018,SSA,8.416
+KNA,Saint Kitts and Nevis,High,2015,LAC,8.4
+KNA,Saint Kitts and Nevis,High,2016,LAC,8.4
+KNA,Saint Kitts and Nevis,High,2017,LAC,8.4
+,Latin America and the Caribbean,,2015,,8.397395974
+,World,,2016,,8.389144878
+ZWE,Zimbabwe,Medium,2018,SSA,8.378333333
+PRY,Paraguay,High,2016,LAC,8.351449419
+ZWE,Zimbabwe,Medium,2017,SSA,8.342245697
+COL,Colombia,High,2017,LAC,8.3265809
+COL,Colombia,High,2018,LAC,8.3265809
+,World,,2015,,8.32168379
+GAB,Gabon,High,2017,SSA,8.320069671
+VNM,Viet Nam,High,2019,EAP,8.32
+,High human development,,2018,,8.292485464
+ZWE,Zimbabwe,Medium,2016,SSA,8.292054196
+COL,Colombia,High,2016,LAC,8.2687
+,High human development,,2017,,8.249709996
+,High human development,,2016,,8.216306082
+GAB,Gabon,High,2016,SSA,8.213296812
+ZWE,Zimbabwe,Medium,2015,SSA,8.2014
+VNM,Viet Nam,High,2017,EAP,8.2
+VNM,Viet Nam,High,2018,EAP,8.2
+IDN,Indonesia,High,2019,EAP,8.16668
+DMA,Dominica,High,2019,LAC,8.142186
+,High human development,,2015,,8.133585309
+DOM,Dominican Republic,High,2019,LAC,8.123720269
+GAB,Gabon,High,2015,SSA,8.107894188
+TUR,Turkey,Very High,2018,ECA,8.10682
+TUR,Turkey,Very High,2019,ECA,8.10682
+DMA,Dominica,High,2018,LAC,8.100764979
+,East Asia and the Pacific,,2019,,8.075379179
+COL,Colombia,High,2015,LAC,8.063272171
+CHN,China,High,2019,EAP,8.06
+DMA,Dominica,High,2017,LAC,8.059343959
+VNM,Viet Nam,High,2016,EAP,8.05
+DMA,Dominica,High,2016,LAC,8.017922938
+VNM,Viet Nam,High,2015,EAP,7.988721822
+DZA,Algeria,High,2018,AS,7.986547848
+DZA,Algeria,High,2019,AS,7.986547848
+KIR,Kiribati,Medium,2019,EAP,7.984461822
+BRA,Brazil,High,2019,LAC,7.9813
+IDN,Indonesia,High,2017,EAP,7.98039
+DMA,Dominica,High,2015,LAC,7.976501917
+IDN,Indonesia,High,2018,EAP,7.976152649
+DZA,Algeria,High,2017,AS,7.966567828
+TUR,Turkey,Very High,2017,ECA,7.965
+DZA,Algeria,High,2016,AS,7.946637793
+THA,Thailand,High,2019,EAP,7.9391
+DOM,Dominican Republic,High,2017,LAC,7.935346002
+DOM,Dominican Republic,High,2018,LAC,7.935346002
+DZA,Algeria,High,2015,AS,7.926707757
+,East Asia and the Pacific,,2018,,7.922300542
+IDN,Indonesia,High,2016,EAP,7.91868
+IDN,Indonesia,High,2015,EAP,7.914484094
+CHN,China,High,2018,EAP,7.9
+DOM,Dominican Republic,High,2016,LAC,7.880184709
+,East Asia and the Pacific,,2017,,7.879978281
+KIR,Kiribati,Medium,2015,EAP,7.865527643
+KIR,Kiribati,Medium,2016,EAP,7.865527643
+KIR,Kiribati,Medium,2017,EAP,7.865527643
+KIR,Kiribati,Medium,2018,EAP,7.865527643
+,East Asia and the Pacific,,2016,,7.859527368
+CHN,China,High,2016,EAP,7.848
+CHN,China,High,2017,EAP,7.848
+BRA,Brazil,High,2017,LAC,7.84104675
+BRA,Brazil,High,2018,LAC,7.84104675
+DOM,Dominican Republic,High,2015,LAC,7.825406861
+FSM,Micronesia (Federated States of),Medium,2019,EAP,7.804956
+TUR,Turkey,Very High,2016,ECA,7.80071
+,East Asia and the Pacific,,2015,,7.775424376
+THA,Thailand,High,2018,EAP,7.770614147
+CHN,China,High,2015,EAP,7.742
+THA,Thailand,High,2017,EAP,7.731400914
+FSM,Micronesia (Federated States of),Medium,2017,EAP,7.717375215
+FSM,Micronesia (Federated States of),Medium,2018,EAP,7.717375215
+BRA,Brazil,High,2016,LAC,7.707389132
+FSM,Micronesia (Federated States of),Medium,2016,EAP,7.64096556
+TUR,Turkey,Very High,2015,ECA,7.637
+THA,Thailand,High,2015,EAP,7.610195
+THA,Thailand,High,2016,EAP,7.60061
+LBY,Libya,High,2019,AS,7.599985
+BRA,Brazil,High,2015,LAC,7.576009827
+FSM,Micronesia (Federated States of),Medium,2015,EAP,7.565312435
+LBY,Libya,High,2017,AS,7.56
+LBY,Libya,High,2018,AS,7.56
+EGY,Egypt,High,2019,AS,7.434
+EGY,Egypt,High,2018,AS,7.326
+IRQ,Iraq,Medium,2018,AS,7.316
+IRQ,Iraq,Medium,2019,AS,7.316
+LBY,Libya,High,2015,AS,7.31
+LBY,Libya,High,2016,AS,7.31
+GHA,Ghana,Medium,2019,SSA,7.306
+,Arab States,,2019,,7.290008195
+KWT,Kuwait,Very High,2017,AS,7.275667996
+KWT,Kuwait,Very High,2018,AS,7.275667996
+KWT,Kuwait,Very High,2019,AS,7.275667996
+,Arab States,,2018,,7.243887141
+TUN,Tunisia,High,2019,AS,7.22022
+EGY,Egypt,High,2016,AS,7.218
+EGY,Egypt,High,2017,AS,7.218
+KWT,Kuwait,Very High,2016,AS,7.209129357
+GHA,Ghana,Medium,2018,SSA,7.184
+TUN,Tunisia,High,2017,AS,7.172257455
+TUN,Tunisia,High,2018,AS,7.172257455
+,Arab States,,2017,,7.166592184
+ZMB,Zambia,Medium,2019,SSA,7.152016
+KWT,Kuwait,Very High,2015,AS,7.142590717
+EGY,Egypt,High,2015,AS,7.11
+ZMB,Zambia,Medium,2018,SSA,7.104178868
+TUN,Tunisia,High,2016,AS,7.090910493
+,Arab States,,2016,,7.067453562
+VUT,Vanuatu,Medium,2019,EAP,7.064846
+GHA,Ghana,Medium,2016,SSA,7.062
+GHA,Ghana,Medium,2017,SSA,7.062
+ZMB,Zambia,Medium,2017,SSA,7.0561375
+IRQ,Iraq,Medium,2017,AS,7.04727056
+MDV,Maldives,High,2019,SA,7.020278
+TUN,Tunisia,High,2015,AS,7.01048616
+NAM,Namibia,Medium,2019,SSA,6.99
+ZMB,Zambia,Medium,2016,SSA,6.960259
+,Arab States,,2015,,6.960226405
+GHA,Ghana,Medium,2015,SSA,6.94
+NAM,Namibia,Medium,2018,SSA,6.94
+NIC,Nicaragua,Medium,2019,LAC,6.912
+SLV,El Salvador,Medium,2019,LAC,6.907268
+IRQ,Iraq,Medium,2016,AS,6.9068756
+SLV,El Salvador,Medium,2018,LAC,6.890159
+NAM,Namibia,Medium,2017,SSA,6.89
+SLV,El Salvador,Medium,2017,LAC,6.87305
+ZMB,Zambia,Medium,2015,SSA,6.8643805
+SWZ,Eswatini (Kingdom of),Medium,2018,SSA,6.855161078
+SWZ,Eswatini (Kingdom of),Medium,2019,SSA,6.855161078
+NAM,Namibia,Medium,2016,SSA,6.84
+VUT,Vanuatu,Medium,2018,EAP,6.84
+MDV,Maldives,High,2016,SA,6.818
+MDV,Maldives,High,2017,SA,6.818
+MDV,Maldives,High,2018,SA,6.818
+NIC,Nicaragua,Medium,2017,LAC,6.796
+NIC,Nicaragua,Medium,2018,LAC,6.796
+VUT,Vanuatu,Medium,2015,EAP,6.793013333
+NAM,Namibia,Medium,2015,SSA,6.79
+IRQ,Iraq,Medium,2015,AS,6.76949576
+SLV,El Salvador,Medium,2016,LAC,6.76871
+COD,Congo (Democratic Republic of the),Low,2019,SSA,6.76008
+VUT,Vanuatu,Medium,2017,EAP,6.76
+COD,Congo (Democratic Republic of the),Low,2017,SSA,6.75948
+COD,Congo (Democratic Republic of the),Low,2018,SSA,6.75948
+SWZ,Eswatini (Kingdom of),Medium,2016,SSA,6.747809563
+SWZ,Eswatini (Kingdom of),Medium,2017,SSA,6.747809563
+NIC,Nicaragua,Medium,2016,LAC,6.68
+VUT,Vanuatu,Medium,2016,EAP,6.68
+NGA,Nigeria,Low,2019,SSA,6.65519163
+MDV,Maldives,High,2015,SA,6.65
+SWZ,Eswatini (Kingdom of),Medium,2015,SSA,6.642139167
+GTM,Guatemala,Medium,2019,LAC,6.62261
+SLV,El Salvador,Medium,2015,LAC,6.617776541
+HND,Honduras,Medium,2017,LAC,6.5964413
+HND,Honduras,Medium,2018,LAC,6.5964413
+HND,Honduras,Medium,2019,LAC,6.573452
+KEN,Kenya,Medium,2018,SSA,6.564
+KEN,Kenya,Medium,2019,SSA,6.564
+COD,Congo (Democratic Republic of the),Low,2016,SSA,6.562114292
+NIC,Nicaragua,Medium,2015,LAC,6.544
+LSO,Lesotho,Low,2019,SSA,6.53928325
+,South Asia,,2019,,6.537414195
+NGA,Nigeria,Low,2018,SSA,6.531883878
+HND,Honduras,Medium,2016,LAC,6.53113
+COG,Congo,Medium,2019,SSA,6.517170529
+COG,Congo,Medium,2016,SSA,6.502271707
+COG,Congo,Medium,2017,SSA,6.502271707
+COG,Congo,Medium,2018,SSA,6.502271707
+IND,India,Medium,2019,SA,6.5
+COG,Congo,Medium,2015,SSA,6.487406945
+,South Asia,,2018,,6.480449924
+KEN,Kenya,Medium,2017,SSA,6.476
+GTM,Guatemala,Medium,2017,LAC,6.467886134
+GTM,Guatemala,Medium,2018,LAC,6.467886134
+,South Asia,,2017,,6.467668969
+IND,India,Medium,2017,SA,6.452132788
+IND,India,Medium,2018,SA,6.452132788
+LSO,Lesotho,Low,2018,SSA,6.443641625
+STP,Sao Tome and Principe,Medium,2018,SSA,6.436763183
+STP,Sao Tome and Principe,Medium,2019,SSA,6.436763183
+GTM,Guatemala,Medium,2016,LAC,6.435707596
+NGA,Nigeria,Low,2017,SSA,6.410860778
+GTM,Guatemala,Medium,2015,LAC,6.40368915
+KEN,Kenya,Medium,2016,SSA,6.388
+,South Asia,,2016,,6.378125564
+COD,Congo (Democratic Republic of the),Low,2015,SSA,6.364748584
+IND,India,Medium,2016,SA,6.350642787
+LSO,Lesotho,Low,2017,SSA,6.348
+,Medium human development,,2019,,6.312499478
+CMR,Cameroon,Medium,2019,SSA,6.310862
+KEN,Kenya,Medium,2015,SSA,6.3
+HND,Honduras,Medium,2015,LAC,6.29630772
+,South Asia,,2015,,6.295701259
+NGA,Nigeria,Low,2016,SSA,6.292080001
+CMR,Cameroon,Medium,2018,SSA,6.2917
+CPV,Cabo Verde,Medium,2019,SSA,6.287719287
+,Medium human development,,2018,,6.258041654
+LSO,Lesotho,Low,2016,SSA,6.25
+IND,India,Medium,2015,SA,6.249152787
+,Medium human development,,2017,,6.242978504
+BGD,Bangladesh,Medium,2019,SA,6.219339024
+CMR,Cameroon,Medium,2017,SSA,6.206546031
+CPV,Cabo Verde,Medium,2018,SSA,6.181132228
+NGA,Nigeria,Low,2015,SSA,6.1755
+UGA,Uganda,Low,2019,SSA,6.171951533
+,Medium human development,,2016,,6.151274121
+MDG,Madagascar,Low,2016,SSA,6.145954825
+MDG,Madagascar,Low,2017,SSA,6.145954825
+STP,Sao Tome and Principe,Medium,2017,SSA,6.13025065
+MDG,Madagascar,Low,2015,SSA,6.129439854
+LSO,Lesotho,Low,2015,SSA,6.126
+TZA,Tanzania (United Republic of),Low,2019,SSA,6.122
+CMR,Cameroon,Medium,2016,SSA,6.121392061
+MDG,Madagascar,Low,2018,SSA,6.1
+MDG,Madagascar,Low,2019,SSA,6.1
+UGA,Uganda,Low,2018,SSA,6.090251
+CPV,Cabo Verde,Medium,2017,SSA,6.076351994
+BGD,Bangladesh,Medium,2018,SA,6.06183
+BGD,Bangladesh,Medium,2017,SA,6.06182519
+,Medium human development,,2015,,6.054254609
+TZA,Tanzania (United Republic of),Low,2017,SSA,6.008
+TZA,Tanzania (United Republic of),Low,2018,SSA,6.008
+CPV,Cabo Verde,Medium,2016,SSA,5.973347954
+TZA,Tanzania (United Republic of),Low,2016,SSA,5.972472071
+CMR,Cameroon,Medium,2015,SSA,5.957303779
+GNQ,Equatorial Guinea,Medium,2019,SSA,5.910863
+BGD,Bangladesh,Medium,2016,SA,5.908311903
+CPV,Cabo Verde,Medium,2015,SSA,5.87209
+TZA,Tanzania (United Republic of),Low,2015,SSA,5.856954287
+STP,Sao Tome and Principe,Medium,2016,SSA,5.838333953
+UGA,Uganda,Low,2017,SSA,5.825923134
+BGD,Bangladesh,Medium,2015,SA,5.783320852
+,Sub-Saharan Africa,,2019,,5.75777124
+SLB,Solomon Islands,Medium,2019,EAP,5.711848
+UGA,Uganda,Low,2016,SSA,5.711544656
+,Sub-Saharan Africa,,2018,,5.700078431
+UGA,Uganda,Low,2015,SSA,5.654355417
+MAR,Morocco,Medium,2019,AS,5.648
+,Sub-Saharan Africa,,2017,,5.639020854
+HTI,Haiti,Low,2018,LAC,5.592369636
+HTI,Haiti,Low,2019,LAC,5.592369636
+,Sub-Saharan Africa,,2016,,5.564980927
+STP,Sao Tome and Principe,Medium,2015,SSA,5.56031805
+GNQ,Equatorial Guinea,Medium,2017,SSA,5.550890776
+GNQ,Equatorial Guinea,Medium,2018,SSA,5.550890776
+SLB,Solomon Islands,Medium,2017,EAP,5.54073206
+SLB,Solomon Islands,Medium,2018,EAP,5.54073206
+GNQ,Equatorial Guinea,Medium,2016,SSA,5.539093132
+GNQ,Equatorial Guinea,Medium,2015,SSA,5.527320562
+MAR,Morocco,Medium,2017,AS,5.514
+MAR,Morocco,Medium,2018,AS,5.514
+,Sub-Saharan Africa,,2015,,5.470562096
+HTI,Haiti,Low,2016,LAC,5.441686
+HTI,Haiti,Low,2017,LAC,5.441686
+SLB,Solomon Islands,Medium,2015,EAP,5.44073206
+SLB,Solomon Islands,Medium,2016,EAP,5.44073206
+MAR,Morocco,Medium,2016,AS,5.38
+HTI,Haiti,Low,2015,LAC,5.29506246
+CIV,Côte d'Ivoire,Low,2019,SSA,5.288
+LAO,Lao People's Democratic Republic,Medium,2019,EAP,5.288
+LAO,Lao People's Democratic Republic,Medium,2018,EAP,5.202
+LAO,Lao People's Democratic Republic,Medium,2016,EAP,5.193853631
+LAO,Lao People's Democratic Republic,Medium,2017,EAP,5.193853631
+CIV,Côte d'Ivoire,Low,2017,SSA,5.192
+CIV,Côte d'Ivoire,Low,2018,SSA,5.192
+AGO,Angola,Medium,2018,SSA,5.173993233
+AGO,Angola,Medium,2019,SSA,5.173993233
+PAK,Pakistan,Medium,2018,SA,5.158944258
+PAK,Pakistan,Medium,2019,SA,5.158944258
+AGO,Angola,Medium,2017,SSA,5.125459533
+LAO,Lao People's Democratic Republic,Medium,2015,EAP,5.116
+PAK,Pakistan,Medium,2017,SA,5.114687129
+AGO,Angola,Medium,2016,SSA,5.1
+SYR,Syrian Arab Republic,Medium,2017,AS,5.1
+SYR,Syrian Arab Republic,Medium,2018,AS,5.1
+SYR,Syrian Arab Republic,Medium,2019,AS,5.1
+CIV,Côte d'Ivoire,Low,2016,SSA,5.096
+PAK,Pakistan,Medium,2015,SA,5.08946
+COM,Comoros,Medium,2019,SSA,5.078649
+PAK,Pakistan,Medium,2016,SA,5.07043
+SYR,Syrian Arab Republic,Medium,2015,AS,5.0625
+SYR,Syrian Arab Republic,Medium,2016,AS,5.0625
+MAR,Morocco,Medium,2015,AS,5.037844226
+MMR,Myanmar,Medium,2019,EAP,5.034490583
+NPL,Nepal,Medium,2019,SA,5.014
+CIV,Côte d'Ivoire,Low,2015,SSA,5
+MMR,Myanmar,Medium,2018,EAP,4.993780417
+COM,Comoros,Medium,2018,SSA,4.993590129
+AGO,Angola,Medium,2015,SSA,4.979858432
+KHM,Cambodia,Medium,2019,EAP,4.966
+MMR,Myanmar,Medium,2017,EAP,4.953399443
+TGO,Togo,Low,2019,SSA,4.949925584
+MMR,Myanmar,Medium,2016,EAP,4.913345
+COM,Comoros,Medium,2017,SSA,4.908531258
+NPL,Nepal,Medium,2016,SA,4.881847475
+MMR,Myanmar,Medium,2015,EAP,4.856896667
+NPL,Nepal,Medium,2018,SA,4.856
+,Low human development,,2019,,4.852926424
+SSD,South Sudan,Low,2015,SSA,4.84913
+SSD,South Sudan,Low,2016,SSA,4.84913
+SSD,South Sudan,Low,2017,SSA,4.84913
+SSD,South Sudan,Low,2018,SSA,4.84913
+COM,Comoros,Medium,2016,SSA,4.845539248
+KHM,Cambodia,Medium,2017,EAP,4.844
+KHM,Cambodia,Medium,2018,EAP,4.844
+TGO,Togo,Low,2018,SSA,4.8344302
+LBR,Liberia,Low,2019,SSA,4.806
+SSD,South Sudan,Low,2019,SSA,4.8
+TLS,Timor-Leste,Medium,2019,EAP,4.794383
+,Low human development,,2018,,4.78675207
+COM,Comoros,Medium,2015,SSA,4.783355624
+TGO,Togo,Low,2017,SSA,4.7412004
+MWI,Malawi,Low,2019,SSA,4.73
+MRT,Mauritania,Low,2019,SSA,4.726
+KHM,Cambodia,Medium,2016,EAP,4.722
+NPL,Nepal,Medium,2015,SA,4.717664439
+,Low human development,,2017,,4.717214825
+NPL,Nepal,Medium,2017,SA,4.698
+KHM,Cambodia,Medium,2015,EAP,4.669575
+LBR,Liberia,Low,2017,SSA,4.668
+LBR,Liberia,Low,2018,SSA,4.668
+PNG,Papua New Guinea,Medium,2019,EAP,4.66
+TGO,Togo,Low,2016,SSA,4.6479706
+MWI,Malawi,Low,2018,SSA,4.63
+,Low human development,,2016,,4.629335156
+PNG,Papua New Guinea,Medium,2018,EAP,4.62
+MRT,Mauritania,Low,2018,SSA,4.614
+PNG,Papua New Guinea,Medium,2016,EAP,4.58
+PNG,Papua New Guinea,Medium,2017,EAP,4.58
+TGO,Togo,Low,2015,SSA,4.5547408
+TLS,Timor-Leste,Medium,2017,EAP,4.537876912
+TLS,Timor-Leste,Medium,2018,EAP,4.537876912
+,Low human development,,2015,,4.537818078
+LBR,Liberia,Low,2016,SSA,4.53
+MWI,Malawi,Low,2016,SSA,4.53
+MWI,Malawi,Low,2017,SSA,4.53
+TLS,Timor-Leste,Medium,2016,EAP,4.524304
+TLS,Timor-Leste,Medium,2015,EAP,4.510018286
+MRT,Mauritania,Low,2017,SSA,4.502
+LBR,Liberia,Low,2015,SSA,4.442
+MWI,Malawi,Low,2015,SSA,4.43
+RWA,Rwanda,Low,2019,SSA,4.417150539
+MRT,Mauritania,Low,2016,SSA,4.39
+RWA,Rwanda,Low,2018,SSA,4.34057
+PNG,Papua New Guinea,Medium,2015,EAP,4.328
+CAF,Central African Republic,Low,2018,SSA,4.282
+CAF,Central African Republic,Low,2019,SSA,4.282
+RWA,Rwanda,Low,2017,SSA,4.281556428
+MRT,Mauritania,Low,2015,SSA,4.266
+CAF,Central African Republic,Low,2016,SSA,4.256
+CAF,Central African Republic,Low,2017,SSA,4.256
+CAF,Central African Republic,Low,2015,SSA,4.23
+RWA,Rwanda,Low,2016,SSA,4.145962317
+DJI,Djibouti,Low,2019,AS,4.1
+BTN,Bhutan,Medium,2017,SA,4.0738
+BTN,Bhutan,Medium,2018,SA,4.0738
+BTN,Bhutan,Medium,2019,SA,4.0738
+DJI,Djibouti,Low,2016,AS,4.07
+DJI,Djibouti,Low,2017,AS,4.07
+DJI,Djibouti,Low,2015,AS,4.061892857
+RWA,Rwanda,Low,2015,SSA,4.010368205
+DJI,Djibouti,Low,2018,AS,4
+AFG,Afghanistan,Low,2018,SA,3.93
+AFG,Afghanistan,Low,2019,SA,3.93
+GMB,Gambia,Low,2019,SSA,3.922
+ERI,Eritrea,Low,2016,SSA,3.901
+ERI,Eritrea,Low,2017,SSA,3.901
+ERI,Eritrea,Low,2018,SSA,3.9
+ERI,Eritrea,Low,2019,SSA,3.9
+ERI,Eritrea,Low,2015,SSA,3.859551
+BEN,Benin,Low,2019,SSA,3.826328
+GMB,Gambia,Low,2018,SSA,3.794
+AFG,Afghanistan,Low,2017,SA,3.78
+BEN,Benin,Low,2018,SSA,3.774
+SDN,Sudan,Low,2019,AS,3.77
+BTN,Bhutan,Medium,2016,SA,3.75992
+SDN,Sudan,Low,2018,AS,3.72
+SLE,Sierra Leone,Low,2019,SSA,3.7
+SDN,Sudan,Low,2017,AS,3.67
+GMB,Gambia,Low,2017,SSA,3.666
+BEN,Benin,Low,2016,SSA,3.649026895
+BEN,Benin,Low,2017,SSA,3.649026895
+AFG,Afghanistan,Low,2015,SA,3.63
+AFG,Afghanistan,Low,2016,SA,3.63
+SDN,Sudan,Low,2015,AS,3.62
+SDN,Sudan,Low,2016,AS,3.62
+SLE,Sierra Leone,Low,2018,SSA,3.6
+GNB,Guinea-Bissau,Low,2019,SSA,3.5626
+MOZ,Mozambique,Low,2018,SSA,3.540898438
+MOZ,Mozambique,Low,2019,SSA,3.540898438
+GMB,Gambia,Low,2016,SSA,3.525
+GMB,Gambia,Low,2015,SSA,3.515
+BEN,Benin,Low,2015,SSA,3.51
+SLE,Sierra Leone,Low,2017,SSA,3.5
+BTN,Bhutan,Medium,2015,SA,3.446
+MOZ,Mozambique,Low,2017,SSA,3.435443829
+SLE,Sierra Leone,Low,2015,SSA,3.4
+SLE,Sierra Leone,Low,2016,SSA,3.4
+MOZ,Mozambique,Low,2016,SSA,3.329989219
+GNB,Guinea-Bissau,Low,2017,SSA,3.303495308
+GNB,Guinea-Bissau,Low,2018,SSA,3.303495308
+BDI,Burundi,Low,2019,SSA,3.287982742
+GNB,Guinea-Bissau,Low,2016,SSA,3.270787434
+GNB,Guinea-Bissau,Low,2015,SSA,3.2384034
+YEM,Yemen,Low,2018,AS,3.2
+YEM,Yemen,Low,2019,AS,3.2
+SEN,Senegal,Low,2019,SSA,3.183085
+BDI,Burundi,Low,2018,SSA,3.124365
+MOZ,Mozambique,Low,2015,SSA,3.11908
+SEN,Senegal,Low,2018,SSA,3.068934
+YEM,Yemen,Low,2015,AS,3
+YEM,Yemen,Low,2016,AS,3
+YEM,Yemen,Low,2017,AS,3
+SEN,Senegal,Low,2017,SSA,2.9862
+BDI,Burundi,Low,2016,SSA,2.968889261
+BDI,Burundi,Low,2017,SSA,2.968889261
+SEN,Senegal,Low,2016,SSA,2.934673226
+BDI,Burundi,Low,2015,SSA,2.902679384
+ETH,Ethiopia,Low,2019,SSA,2.883189
+SEN,Senegal,Low,2015,SSA,2.883146451
+ETH,Ethiopia,Low,2017,SSA,2.795442993
+ETH,Ethiopia,Low,2018,SSA,2.795442993
+GIN,Guinea,Low,2019,SSA,2.774225
+GIN,Guinea,Low,2016,SSA,2.707392597
+GIN,Guinea,Low,2017,SSA,2.707392597
+GIN,Guinea,Low,2018,SSA,2.707392597
+ETH,Ethiopia,Low,2016,SSA,2.681135
+GIN,Guinea,Low,2015,SSA,2.661088895
+ETH,Ethiopia,Low,2015,SSA,2.580780019
+TCD,Chad,Low,2019,SSA,2.52368
+TCD,Chad,Low,2018,SSA,2.469734498
+TCD,Chad,Low,2017,SSA,2.409497071
+MLI,Mali,Low,2018,SSA,2.352954412
+MLI,Mali,Low,2019,SSA,2.352954412
+TCD,Chad,Low,2016,SSA,2.35072885
+TCD,Chad,Low,2015,SSA,2.293394
+MLI,Mali,Low,2017,SSA,2.291034559
+MLI,Mali,Low,2016,SSA,2.229114706
+MLI,Mali,Low,2015,SSA,2.105275
+NER,Niger,Low,2019,SSA,2.079048967
+NER,Niger,Low,2018,SSA,2.029048967
+NER,Niger,Low,2017,SSA,1.951331771
+NER,Niger,Low,2016,SSA,1.873614574
+NER,Niger,Low,2015,SSA,1.795897378
+BFA,Burkina Faso,Low,2019,SSA,1.644298557
+BFA,Burkina Faso,Low,2018,SSA,1.585573608
+BFA,Burkina Faso,Low,2017,SSA,1.528945979
+BFA,Burkina Faso,Low,2016,SSA,1.472318351
+BFA,Burkina Faso,Low,2015,SSA,1.415690722
+MCO,Monaco,,2015,,
+NRU,Nauru,,2015,EAP,
+PRK,Korea (Democratic People's Rep. of),,2015,EAP,
+SMR,San Marino,,2015,,
+SOM,Somalia,,2015,AS,
+TUV,Tuvalu,,2015,EAP,
+,,,,,
+,,,,,
+,,,,,
+MCO,Monaco,,2016,,
+NRU,Nauru,,2016,EAP,
+PRK,Korea (Democratic People's Rep. of),,2016,EAP,
+SMR,San Marino,,2016,,
+SOM,Somalia,,2016,AS,
+TUV,Tuvalu,,2016,EAP,
+,,,,,
+,,,,,
+,,,,,
+MCO,Monaco,,2017,,
+NRU,Nauru,,2017,EAP,
+PRK,Korea (Democratic People's Rep. of),,2017,EAP,
+SMR,San Marino,,2017,,
+SOM,Somalia,,2017,AS,
+TUV,Tuvalu,,2017,EAP,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+MCO,Monaco,,2018,,
+NRU,Nauru,,2018,EAP,
+PRK,Korea (Democratic People's Rep. of),,2018,EAP,
+SMR,San Marino,,2018,,
+SOM,Somalia,,2018,AS,
+TUV,Tuvalu,,2018,EAP,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+MCO,Monaco,,2019,,
+NRU,Nauru,,2019,EAP,
+PRK,Korea (Democratic People's Rep. of),,2019,EAP,
+SMR,San Marino,,2019,,
+SOM,Somalia,,2019,AS,
+TUV,Tuvalu,,2019,EAP,
