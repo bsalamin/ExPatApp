@@ -108,7 +108,8 @@ The results of the model also indicate 19 countries in the same cluster as the U
 After analyzing the data and applying an unsupervised machine learning model, the results indicate which countries are most suitable for emigration from America. Users can then utilize a Tableau dashboard, which will include additional information about the countries in the clusters, and apply filtering to gain insight into their prospective new countries.
 
 ### Dashboard
-- Placeholder: Insert link to Tableau Public
+https://public.tableau.com/app/profile/allison.o.rourke/viz/ExPatApp/Sheet1
+
 
 
 
