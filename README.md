@@ -109,6 +109,7 @@ After analyzing the data and applying an unsupervised machine learning model, th
 
 ### Dashboard
 https://public.tableau.com/app/profile/allison.o.rourke/viz/ExPatApp/Sheet1
+![Dashboard image](https://github.com/nicolebplatt/ExPatApp/blob/Allison/Screenshot%20(121).png)
 
 
 
