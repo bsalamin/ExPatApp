@@ -109,7 +109,9 @@ After analyzing the data and applying an unsupervised machine learning model, th
 
 ### Dashboard
 https://public.tableau.com/app/profile/allison.o.rourke/viz/ExPatApp/Sheet1
-![Dashboard image](https://github.com/nicolebplatt/ExPatApp/blob/Allison/Screenshot%20(121).png)
+![Dashboard image](https://github.com/nicolebplatt/ExPatApp/blob/Allison/Screenshot%20(122).png)
+
+The dashboard is held in Tableu public and will allow people to filter for a number of things such as percentage of English speakers in the country or when the data was collected. When you hover over a country you will be able to see a number of factors that may affect their decision such as the democracy index, freedom of religion index, life expectancy, mean years of schooling, etc.
 
 
 
