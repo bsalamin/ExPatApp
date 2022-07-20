@@ -111,7 +111,7 @@ After analyzing the data and applying an unsupervised machine learning model, th
 https://public.tableau.com/app/profile/allison.o.rourke/viz/ExPatApp/Sheet1
 ![Dashboard image](https://github.com/nicolebplatt/ExPatApp/blob/Allison/Screenshot%20(122).png)
 
-The dashboard is held in Tableu public and will allow people to filter for a number of things such as percentage of English speakers in the country or when the data was collected. When you hover over a country you will be able to see a number of factors that may affect their decision such as the democracy index, freedom of religion index, life expectancy, mean years of schooling, etc.
+The dashboard is held in Tableu public and will allow people to filter for a number of things such as percentage of English speakers in the country or when the data was collected. To do the filtering there will be a number of sliding scales that the user will be able to choose from to determine what is most important to them. We are going to use data sets that may have more null values to allow for those values not to affect the ML model as much. When you hover over a country you will be able to see a number of factors that were in the ML model that may affect their decision such as the democracy index, freedom of religion index, life expectancy, mean years of schooling, etc. We are going to color the countries based on what clusters they are and then as well as how close those clusters are to the US.
 
 
 
