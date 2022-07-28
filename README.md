@@ -4,7 +4,7 @@
 With changing political and economic landscapes and different travel patterns in a post-COVID world, there is new interest for emigration from America. However, there is no clear index of how an American should go about choosing a different country to start a new life.
 
 ## Overview
-This app will perform an analysis to help potential expatriates (expats) discover new places they might want to immigrate to, should they decide to leave the USA. The user chooses their individual preferences from a specified list of parameters (political, economic, etc.) and the app results showcase different countries to move to based on the input selections.
+This application will perform an analysis to help potential expatriates discover new places they might want to immigrate to, should they decide to leave the US. The end result allows a user to filter a dashboard based on their individual preferences from a specified list of parameters (political, economic, etc.) and showcases different countries to move to based on the input selections.
 
 ## Communication and Technology Protocols
 - GitHub: contains final documents and code relevant to the app
@@ -69,7 +69,20 @@ The project database interfaces with the project by using the merged source data
 <b>Fig.4 - Python code to potentially connect the database to the machine learning model</b>
 
 ### Machine Learning Model
-The analysis includes an unsupervised machine learning model with a focus on clustering.
+
+SUMMARY: We are planning to use unsupervised learning to cluster our country-level data in order to use approximate similarity to the US to return countries for expatriation. After the initial clustering, the user will be able to filter or compare the listed countries on a small set of components (like climate data or other "fun fact"-style data). Indicators for the clustering include Economy, Health, Political System, Education, & Lifestyle, and right now the cluster of alternatives is determined by our unsupervised machine learning algorithm via similarity to the US (filters coming later).
+
+The analysis utilizes an unsupervised machine learning model that will cluster country-level data for our Expat App. At a high level, what will happen with the ML model is that it will use unsupervised learning to cluster countries from our dataset, with the goal of creating a cluster of "plausible" countries that an expat could move to insofar as they are similar to the US according to the data we gathered.
+
+The algorithm clusters countries and includes the US as part of the dataset and returns a cluster of countries that are "similar" to the US that the user can consider moving to. This seemed like the best way to use ML for our project for a few reasons:
+
+1) It is difficult to use supervised learning in this circumstance because it is challenging to find data about where expatriated people moved
+2) Even if we used migration data to see where people moved, that wouldn't tell us if they are satisfied with their move, or if they moved voluntarily
+3) Most of the data we are using can be made into a numerical form, and so clusters can happen easily and are amenable to PCA without huge loss
+
+Also, if a particular data column is challenging to incorporate into our ML model (like language, where it can be hard to track related languages without recourse to  more advanced techniques), we can instead give it to the end user as a filter (e.g. filter for countries where English is spoken), which they can then apply/experiment with in our dashboard using a small pre-selected group of plausible countries, rather than all 200+ in the world.
+
+Because the number of rows in the datasets we are working with are relatively small, we will use hierarchical clustering instead of just doing K-Means. This also seems like a best practice because then the clusters don't depend on a random seed, just agglomerative clustering of our one full dataset.
 
 DESCRIPTION OF PRELIMINARY DATA PREPROCESSING: In order to prepare the data for a machine-learning algorithm, we first created an encoded version of the initial DataFrame, using OneHotEncoder to make sure we had quantitative encodings of all our categorical data. Next, we examined the data and realized, since we are using the data year as part of the unique identifier for our tables, that we have many null values where the data we are examining does not match up by year across columns. To deal with this problem, we dropped all unnecessary columns for analysis (including year and country name), and after this was done we used the raw data to compile a DataFrame the rows of which were the most current index measures available for a specific country, so that the data would be most relevant to an expat moving to that country in 2022. (So rather than the USA appearing as multiple rows with data from 2022, 2021, 2020, and so on, now there is one row with country code “USA” that is filled by the latest data in each column for that country.) Then, once the latest data was collected and encoded in a single useable DataFrame, we proceeded to rescale our numerical indices for PCA analysis.
 
@@ -86,41 +99,38 @@ To close, a brief note on data: For this latest analysis we agreed as a group to
 - DESCRIPTION OF HOW DATA WAS SPLIT INTO TRAINING AND TESTING SETS: Because we employed an unsupervised ML model, training and testing sets were not necessary for us.
 - EXPLANATION OF MODEL CHOICE, INCLUDING LIMITATIONS AND BENEFITS: Our choice of an unsupervised machine learning model for our project has one clear downside, which is that it is difficult to ascertain the “accuracy” of our suggestions for users; without supervised learning (aka a verifiable outcome, training & testing sets, etc.) it is difficult to verify our cluster output. There are, however, helpful benefits to this unsupervised approach: countries that are surprisingly similar to the US can be revealed without preconception (for example, Estonia, which would not have been my first thought!), and in our eventual project dashboard the user can dig down into some nitty-gritty comparisons between countries in the cluster the ML algorithm returns for them. Also, since our ML algorithm uses hierarchical clustering rather than K-Means, it doesn’t depend on a random seed, which seems appropriate for a big decision like which country to move to.
 
-*Note: For this latest analysis we dropped the column related to “percent of English speakers” in a country, because the data was missing information from so many countries. Our group agreed, however, that this is an important data point to consider for expats, and we found that there is better and more up-to-date data available for this measure using the CIA World Factbook; we will add this back in in future analysis.*
-main
 
 ## Results
-The results of the machine learning model produced 11 clusters.
-![clusters_20220716](https://user-images.githubusercontent.com/99286327/179422217-85f4d6c3-f47d-46b0-8fa0-71f7a357bd04.png)
+The results of the machine learning model produced 10 clusters.
+![PCA1_PCA2](https://user-images.githubusercontent.com/99286327/181533413-dfbcc7af-8ae1-4f09-84f8-06b1ba3fba4e.png)
+![PCA3_PCA4](https://user-images.githubusercontent.com/99286327/181533421-eae4a280-4c08-42e9-86ba-cf2ec3cd454a.png)
 
-The results of the model also indicate 19 countries in the same cluster as the US:
-1.	Albania
-2.	Argentina
-3.	Chile
-4.	Costa Rica
-5.	Dominican Republic
-6.	Ecuador
-7.	Estonia
-8.	Italy
-9.	Jamaica
-10. Lithuania
-11. Latvia
-12. Mauritius
-13. Panama
-14. Peru
-15. Portugal
-16. Romania
-17. Spain
-18. Trinidad and Tobago
-19. Uruguay
+The results of the model also indicate 13 countries in the same cluster as the US:
+1.	Australia
+2.	Canada
+3.	Denmark 
+4.	Finland
+5.	Germany
+6.	Ireland
+7.	Luxembourg
+8.	Netherlands
+9.	Norway
+10. Republic of Korea
+11. Singapore
+12. Sweden
+13. Switzerland
+
 
 ## Summary
-After analyzing the data and applying an unsupervised machine learning model, the results indicate which countries are most suitable for emigration from America. Users can then utilize a Tableau dashboard, which will include additional information about the countries in the clusters, and apply filtering to gain insight into their prospective new countries.
+After analyzing the data and applying an unsupervised machine learning model, the results indicate which countries are most suitable for emigration from America. Users can then utilize a Tableau dashboard, which includes additional information about the countries in the clusters, and apply filtering to gain insight into their prospective new countries.
 
 ### Dashboard
-https://public.tableau.com/app/profile/allison.o.rourke/viz/ExPatApp/Sheet1
-![Dashboard image](https://github.com/nicolebplatt/ExPatApp/blob/Allison/Screenshot%20(122).png)
+https://public.tableau.com/app/profile/allison.o.rourke/viz/ExPatApp_16589709367820/PersonA_1
+![Tableau_Dashboard_screenshot](https://user-images.githubusercontent.com/99286327/181536116-82404358-a898-4620-86e2-821a230e0866.png)
 
-The dashboard is held in Tableu public and will allow people to filter for a number of things such as percentage of English speakers in the country or when the data was collected. To do the filtering there will be a number of sliding scales that the user will be able to choose from to determine what is most important to them. We are going to use data sets that may have more null values to allow for those values not to affect the ML model as much. When you hover over a country you will be able to see a number of factors that were in the ML model that may affect their decision such as the democracy index, freedom of religion index, life expectancy, mean years of schooling, etc. We are going to color the countries based on what clusters they are and then as well as how close those clusters are to the US.
+The dashboard is held in Tableu public and will allow people to filter for a number of things such as percentage of English speakers in the country or when the data was collected. The colors of the countries are based on their respective cluster as well as how close those clusters are to the US. To filter: there are a number of sliding scales the user will be able to choose from to determine what is most important to them. Unlike with our ML model, we included datasets that may have null values for our filters. When a user hovers over a country, they can see a number of factors that were in the ML model that may affect their decision such as the democracy index, freedom of religion index, life expectancy, mean years of schooling, etc. 
+
+### Slides
+Google Slides: https://docs.google.com/presentation/d/1MRCJfYPhn_HDTTVEcOQcfKrYrxx9mod0SCcO8BQLBWU/edit#slide=id.p
 
 
