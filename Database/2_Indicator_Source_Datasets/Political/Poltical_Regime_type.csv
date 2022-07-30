@@ -1,0 +1,168 @@
+country_code,Country,Year,Regime_type
+CAN,Canada,2021,Full democracy
+USA,United States,2021,Flawed democracy
+AUT,Austria,2021,Full democracy
+BEL,Belgium,2021,Flawed democracy
+CYP,Cyprus,2021,Flawed democracy
+DNK,Denmark,2021,Full democracy
+FIN,Finland,2021,Full democracy
+FRA,France,2021,Flawed democracy
+DEU,Germany,2021,Full democracy
+GRC,Greece,2021,Flawed democracy
+ISL,Iceland,2021,Full democracy
+IRL,Ireland,2021,Full democracy
+ITA,Italy,2021,Flawed democracy
+LUX,Luxembourg,2021,Full democracy
+MLT,Malta,2021,Flawed democracy
+NLD,Netherlands,2021,Full democracy
+NOR,Norway,2021,Full democracy
+PRT,Portugal,2021,Flawed democracy
+ESP,Spain,2021,Flawed democracy
+SWE,Sweden,2021,Full democracy
+CHE,Switzerland,2021,Full democracy
+TUR,Turkey,2021,Hybrid regime
+GBR,United Kingdom,2021,Full democracy
+ALB,Albania,2021,Flawed democracy
+ARM,Armenia,2021,Hybrid regime
+AZE,Azerbaijan,2021,Authoritarian
+BLR,Belarus,2021,Authoritarian
+BIH,Bosnia and Herzegovina,2021,Hybrid regime
+BGR,Bulgaria,2021,Flawed democracy
+HRV,Croatia,2021,Flawed democracy
+CZE,Czech Republic,2021,Flawed democracy
+EST,Estonia,2021,Flawed democracy
+GEO,Georgia,2021,Hybrid regime
+HUN,Hungary,2021,Flawed democracy
+KAZ,Kazakhstan,2021,Authoritarian
+KGZ,Kyrgyzstan,2021,Authoritarian
+LVA,Latvia,2021,Flawed democracy
+LTU,Lithuania,2021,Flawed democracy
+MDA,Moldova,2021,Flawed democracy
+MNE,Montenegro,2021,Flawed democracy
+MKD,North Macedonia,2021,Flawed democracy
+POL,Poland,2021,Flawed democracy
+ROU,Romania,2021,Flawed democracy
+RUS,Russia,2021,Authoritarian
+SRB,Serbia,2021,Flawed democracy
+SVK,Slovakia,2021,Flawed democracy
+SVN,Slovenia,2021,Flawed democracy
+TJK,Tajikistan,2021,Authoritarian
+TKM,Turkmenistan,2021,Authoritarian
+UKR,Ukraine,2021,Hybrid regime
+UZB,Uzbekistan,2021,Authoritarian
+ARG,Argentina,2021,Flawed democracy
+BOL,Bolivia,2021,Hybrid regime
+BRA,Brazil,2021,Flawed democracy
+CHL,Chile,2021,Flawed democracy
+COL,Colombia,2021,Flawed democracy
+CRI,Costa Rica,2021,Full democracy
+CUB,Cuba,2021,Authoritarian
+DOM,Dominican Republic,2021,Flawed democracy
+ECU,Ecuador,2021,Hybrid regime
+SLV,El Salvador,2021,Hybrid regime
+GTM,Guatemala,2021,Hybrid regime
+GUY,Guyana,2021,Flawed democracy
+HTI,Haiti,2021,Authoritarian
+HND,Honduras,2021,Hybrid regime
+JAM,Jamaica,2021,Flawed democracy
+MEX,Mexico,2021,Hybrid regime
+NIC,Nicaragua,2021,Authoritarian
+PAN,Panama,2021,Flawed democracy
+PRY,Paraguay,2021,Hybrid regime
+PER,Peru,2021,Flawed democracy
+SUR,Suriname,2021,Flawed democracy
+TTO,Trinidad and Tobago,2021,Flawed democracy
+URY,Uruguay,2021,Full democracy
+VEN,Venezuela,2021,Authoritarian
+AFG,Afghanistan,2021,Authoritarian
+AUS,Australia,2021,Full democracy
+BGD,Bangladesh,2021,Hybrid regime
+BTN,Bhutan,2021,Hybrid regime
+KHM,Cambodia,2021,Authoritarian
+CHN,China,2021,Authoritarian
+FJI,Fiji,2021,Hybrid regime
+HKG,Hong Kong,2021,Hybrid regime
+IND,India,2021,Flawed democracy
+IDN,Indonesia,2021,Flawed democracy
+JPN,Japan,2021,Full democracy
+LAO,Laos,2021,Authoritarian
+MYS,Malaysia,2021,Flawed democracy
+MNG,Mongolia,2021,Flawed democracy
+MMR,Myanmar,2021,Authoritarian
+NPL,Nepal,2021,Hybrid regime
+NZL,New Zealand,2021,Full democracy
+PRK,North Korea,2021,Authoritarian
+PAK,Pakistan,2021,Hybrid regime
+PNG,Papua New Guinea,2021,Flawed democracy
+PHL,Philippines,2021,Flawed democracy
+SGP,Singapore,2021,Flawed democracy
+KOR,South Korea,2021,Full democracy
+LKA,Sri Lanka,2021,Flawed democracy
+TWN,Taiwan,2021,Full democracy
+THA,Thailand,2021,Flawed democracy
+TLS,East Timor,2021,Flawed democracy
+VNM,Vietnam,2021,Authoritarian
+DZA,Algeria,2021,Authoritarian
+BHR,Bahrain,2021,Authoritarian
+EGY,Egypt,2021,Authoritarian
+IRN,Iran,2021,Authoritarian
+IRQ,Iraq,2021,Authoritarian
+ISR,Israel,2021,Flawed democracy
+JOR,Jordan,2021,Authoritarian
+KWT,Kuwait,2021,Authoritarian
+LBN,Lebanon,2021,Authoritarian
+LBY,Libya,2021,Authoritarian
+MAR,Morocco,2021,Hybrid regime
+OMN,Oman,2021,Authoritarian
+PSE,Palestine,2021,Authoritarian
+QAT,Qatar,2021,Authoritarian
+SAU,Saudi Arabia,2021,Authoritarian
+SDN,Sudan,2021,Authoritarian
+SYR,Syria,2021,Authoritarian
+TUN,Tunisia,2021,Hybrid regime
+ARE,United Arab Emirates,2021,Authoritarian
+YEM,Yemen,2021,Authoritarian
+AGO,Angola,2021,Authoritarian
+BEN,Benin,2021,Hybrid regime
+BWA,Botswana,2021,Flawed democracy
+BFA,Burkina Faso,2021,Authoritarian
+BDI,Burundi,2021,Authoritarian
+CPV,Cape Verde,2021,Flawed democracy
+CMR,Cameroon,2021,Authoritarian
+CAF,Central African Republic,2021,Authoritarian
+TCD,Chad,2021,Authoritarian
+COM,Comoros,2021,Authoritarian
+COG,Republic of the Congo,2021,Authoritarian
+CIV,Ivory Coast,2021,Hybrid regime
+COD,Democratic Republic of the Congo,2021,Authoritarian
+DJI,Djibouti,2021,Authoritarian
+GNQ,Equatorial Guinea,2021,Authoritarian
+ERI,Eritrea,2021,Authoritarian
+SWZ,Eswatini,2021,Authoritarian
+ETH,Ethiopia,2021,Authoritarian
+GAB,Gabon,2021,Authoritarian
+GMB,Gambia,2021,Hybrid regime
+GHA,Ghana,2021,Flawed democracy
+GIN,Guinea,2021,Authoritarian
+GNB,Guinea-Bissau,2021,Authoritarian
+KEN,Kenya,2021,Hybrid regime
+LSO,Lesotho,2021,Flawed democracy
+LBR,Liberia,2021,Hybrid regime
+MDG,Madagascar,2021,Hybrid regime
+MWI,Malawi,2021,Hybrid regime
+MLI,Mali,2021,Authoritarian
+MRT,Mauritania,2021,Hybrid regime
+MUS,Mauritius,2021,Full democracy
+MOZ,Mozambique,2021,Authoritarian
+NAM,Namibia,2021,Flawed democracy
+NER,Niger,2021,Authoritarian
+NGA,Nigeria,2021,Hybrid regime
+RWA,Rwanda,2021,Authoritarian
+SEN,Senegal,2021,Hybrid regime
+SLE,Sierra Leone,2021,Hybrid regime
+ZAF,South Africa,2021,Flawed democracy
+TZA,Tanzania,2021,Hybrid regime
+TGO,Togo,2021,Authoritarian
+UGA,Uganda,2021,Hybrid regime
+ZMB,Zambia,2021,Hybrid regime
+ZWE,Zimbabwe,2021,Authoritarian

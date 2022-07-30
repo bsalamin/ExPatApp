@@ -1,0 +1,218 @@
+Country,Year,avg_annual_precipitation
+Afghanistan,2017,327
+Albania,2017,1485
+Algeria,2017,89
+American Samoa,2017,
+Andorra,2017,
+Angola,2017,1010
+Antigua and Barbuda,2017,1030
+Argentina,2017,591
+Armenia,2017,562
+Aruba,2017,
+Australia,2017,534
+Austria,2017,1110
+Azerbaijan,2017,447
+Bahamas,2017,1292
+Bahrain,2017,83
+Bangladesh,2017,2666
+Barbados,2017,1422
+Belarus,2017,618
+Belgium,2017,847
+Belize,2017,1705
+Benin,2017,1039
+Bermuda,2017,
+Bhutan,2017,2200
+Bolivia,2017,1146
+Bosnia and Herzegovina,2017,1028
+Botswana,2017,416
+Brazil,2017,1761
+British Virgin Islands,2017,
+Brunei,2017,2722
+Bulgaria,2017,608
+Burkina Faso,2017,748
+Burundi,2017,1274
+Cambodia,2017,1904
+Cameroon,2017,1604
+Canada,2017,537
+Cape Verde,2017,228
+Cayman Islands,2017,
+Central African Republic,2017,1343
+Chad,2017,322
+Channel Islands,2017,
+Chile,2017,1522
+China,2017,645
+Colombia,2017,3240
+Comoros,2017,900
+Congo,2017,1646
+Costa Rica,2017,2926
+Croatia,2017,1113
+Cuba,2017,1335
+Curaçao,2017,
+Cyprus,2017,498
+Czech Republic,2017,677
+Denmark,2017,703
+Djibouti,2017,220
+Dominica,2017,2083
+Dominican Republic,2017,1410
+DR Congo,2017,1543
+East Timor,2017,1500
+Ecuador,2017,2274
+Egypt,2017,18
+El Salvador,2017,1784
+Equatorial Guinea,2017,2156
+Eritrea,2017,384
+Estonia,2017,626
+Eswatini,2017,788
+Ethiopia,2017,848
+Faroe Islands,2017,
+Fiji,2017,2592
+Finland,2017,536
+France,2017,867
+French Polynesia,2017,
+Gabon,2017,1831
+Gambia,2017,836
+Georgia,2017,1026
+Germany,2017,700
+Ghana,2017,1187
+Gibraltar,2017,
+Greece,2017,652
+Greenland,2017,
+Grenada[a],2017,2350
+Guam,2017,
+Guatemala,2017,1996
+Guinea,2017,1651
+Guinea-Bissau,2017,1577
+Guyana,2017,2387
+Haiti,2017,1440
+Honduras,2017,1976
+Hong Kong,2017,
+Hungary,2017,589
+Iceland,2017,1940
+India,2017,1083
+Indonesia,2017,2702
+Iran,2017,228
+Iraq,2017,216
+Ireland,2017,1118
+Isle of Man,2017,
+Israel,2017,435
+Italy,2017,832
+Ivory Coast,2017,1348
+Jamaica,2017,2051
+Japan,2017,1668
+Jordan,2017,111
+Kazakhstan,2017,250
+Kenya,2017,630
+Kiribati,2017,
+Kosovo,2017,
+Kuwait,2017,121
+Kyrgyzstan,2017,533
+Laos,2017,1834
+Latvia,2017,667
+Lebanon,2017,661
+Lesotho,2017,788
+Liberia,2017,2391
+Libya,2017,56
+Liechtenstein,2017,
+Lithuania,2017,656
+Luxembourg,2017,934
+Macau,2017,
+Madagascar,2017,1513
+Malawi,2017,1181
+Malaysia,2017,2875
+Maldives,2017,1972
+Mali,2017,282
+Malta,2017,560
+Marshall Islands,2017,
+Mauritania,2017,92
+Mauritius,2017,2041
+Mexico,2017,758
+Micronesia,2017,
+Moldova,2017,450
+Monaco,2017,
+Mongolia,2017,241
+Montenegro,2017,
+Morocco,2017,346
+Mozambique,2017,1032
+Myanmar,2017,2091
+Namibia,2017,285
+Nauru,2017,
+Nepal,2017,1500
+Netherlands,2017,778
+New Caledonia,2017,
+New Zealand,2017,1732
+Nicaragua,2017,2280
+Niger,2017,151
+Nigeria,2017,1150
+North Korea,2017,1054
+North Macedonia,2017,619
+Northern Mariana Islands,2017,
+Norway,2017,1414
+Oman,2017,125
+Pakistan,2017,494
+Palau,2017,
+Palestine[b],2017,402
+Panama,2017,2928
+Papua New Guinea,2017,3142
+Paraguay,2017,1130
+Peru,2017,1738
+Philippines,2017,2348
+Poland,2017,600
+Portugal,2017,854
+Puerto Rico,2017,2054
+Qatar,2017,74
+Romania,2017,637
+Russia,2017,460
+Rwanda,2017,1212
+Saint Kitts and Nevis,2017,1427
+Saint Lucia,2017,2301
+Saint Martin,2017,
+Saint Vincent and the Grenadines,2017,1583
+Samoa,2017,2880
+San Marino,2017,
+São Tomé and Príncipe,2017,3200
+Saudi Arabia,2017,59
+Senegal,2017,686
+Serbia,2017,
+Seychelles,2017,2330
+Sierra Leone,2017,2526
+Singapore,2017,2497
+Sint Maarten,2017,
+Slovakia,2017,824
+Slovenia,2017,1162
+Solomon Islands,2017,3028
+Somalia,2017,282
+South Africa,2017,495
+South Korea,2017,1274
+South Sudan,2017,900
+Spain,2017,636
+Sri Lanka,2017,1712
+Sudan,2017,250
+Suriname,2017,2331
+Sweden,2017,624
+Switzerland,2017,1537
+Syria,2017,252
+Tajikistan,2017,691
+Tanzania,2017,1071
+Thailand,2017,1622
+Togo,2017,1168
+Tonga,2017,
+Trinidad and Tobago,2017,2200
+Tunisia,2017,207
+Turkey,2017,593
+Turkmenistan,2017,161
+Turks and Caicos Islands,2017,
+Tuvalu,2017,
+U.S. Virgin Islands,2017,
+Uganda,2017,1180
+Ukraine,2017,565
+United Arab Emirates,2017,78
+United Kingdom,2017,1220
+United States,2017,715
+Uruguay,2017,1300
+Uzbekistan,2017,206
+Vanuatu,2017,2000
+Venezuela,2017,2044
+Vietnam,2017,1821
+Yemen,2017,167
+Zambia,2017,1020
+Zimbabwe,2017,657
