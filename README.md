@@ -27,46 +27,87 @@ Data for the following proxy indicators for 5 key metrics that would be importan
 
 ## Methodology
 
-### SQL Database
+### ExPatApp SQL Database
 
-The [entity-relationship diagram](/Database/ExPat_DB_ERD.png) of the project SQL database is pictured below (See Figure 1).
+The [entity-relationship diagram](/Database/ExPat_DB_ERD.png) of the project SQL database is pictured below.
 
-![ERD_image](/Database/ExPat_DB_ERD.png)
+![ERD_image](/Database/ExPat_DB_ERD_Final.png)
 
-<b>Fig.1 - ExPat Database ERD</b>
+The following twenty-five (25) tables are currently in the project SQL database:
 
-The following ten (10) tables are currently in the project SQL database:
+* Below are **14 static raw source datasets** in the RawData schema which contain various proxy indicators/metrics for the five key factors that would be important for Americans considering emigration. All the tables have the following columns: country name and data year. These tables were created by importing the following CSV tables:
 
-* There are seven static tables in the database -- our 5 source datasets, a list of ISO3 country codes, and a list of all available years of data. These tables were created using the [Create_Schema SQL script](/Database/create_schema.sql) and importing the following CSV tables:
+    | Table Name | Key Factor | Proxy Indicators/Metrics |
+    | --- | --- | --- |
+    | Econ_Alcohol_GDP | Economy | alcohol_consumption_per_capita, gdp_per_capita |
+    | Econ_Big_Mac | Economy | big_mac_dollar_price |
+    | Econ_HDI | Economy | human_development_index |
+    | Econ_Internet_Mobile_Speeds | Economy | broadband_speed_rank, broadband_mbps, mobile_speed_rank, mobile_mbps |
+    | Edu_Mean_Years_Schooling | Education | hdi_code, mean_years_schooling |
+    | Health_HALE | Health | health_adjusted_life_expectancy |
+    | Health_Happiness | Health | happiness_index |
+    | Health_QoL | Health | numbeoqol, usnewsqol, ceoqol |
+    | Life_FRI_PES | Lifestyle | freedom_religion_index, percent_english_speakers |
+    | Life_LDI | Lifestyle | linguistic_diversity_index |
+    | Life_Precip | Lifestyle | avg_annual_precipitation |
+    | Life_Temp | Lifestyle | avg_annual_temp_c |
+    | Pol_DI | Political | democracy_index|
+    | Pol_Regime | Political | regime_type |
 
-    * [Economy_HDI](/Database/2_Indicator_Source_Datasets/Economy_Indicator_HDI.csv)
-    * [Education_MYS](/Database/2_Indicator_Source_Datasets/Education_Indicator_Mean_Years_Schooling.csv)
-    * [Health_HALE](/Database/2_Indicator_Source_Datasets/Health_Indicator_HALE.csv)
-    * [Lifestyle_FRI_PES](/Database/2_Indicator_Source_Datasets/Lifestyle_Indicator_Freedom_of_Religion_index_&_Percent_English_Speakers.csv)
-    * [Poltical_DI](/Database/2_Indicator_Source_Datasets/Political_Indicator_Wiki_DemocracyIndex.csv)
+* ***Country Code Mapping*** -- In order to join all the source datasets together to create the input dataset for our machine learning model, all the country name/code and data year fields would need to match each of these tables. 
 
-    * [ISO3_Codes](/Database/1_Country_Code_Mapping/iso3.csv): ISO 3166-1 alpha-3 codes are three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.
-    * [Data_Year](/Database/1_Country_Code_Mapping/data_year.csv): We focused on data from years 2000 - 2022.
+    * **ISO3_Codes**: ISO 3166-1 alpha-3 (ISO3) codes are three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.
 
-* In order to join all the source datasets together to create the input dataset for our machine learning model, all the country name and data year fields would need to match each of these tables. Therefore, we created a [country code map table](/Database/1_Country_Code_Mapping/country_code_map.csv) by performing ***full joins*** with the country name in the ISO3_codes table and the country names of the source datasets (see below). Manual updates were also made to an exported copy of the country code map table to ensure each country name in all 5 source tables had a corresponding ISO3 code.
+    * For raw source datasets without a country code column, we created **3 country code map tables** (listed below) by performing *full joins* with the country name in the ISO3_codes table and the country names of the source datasets. Manual updates were also made to an exported copy of the country code map table to ensure each country name in all source tables had a corresponding ISO3 code.
+        - country_code_map
+        - country_code_map_health_data
+        - country_code_map_lifestyle_data
 
-![image](https://user-images.githubusercontent.com/99936542/179379207-6049ce02-9a52-4d3f-8749-ce77faf23541.png)
+* ***Indicator Datasets*** --
 
-<b>Fig.2 - SQL code to create country code map table</b>
+    * Using a *WITH* query, we created a common table expression (CTE) named **country_year** -- this table represents all the distinct combinations of country code/name and data year by performing a *cross join* between the ISO3_codes table and **data_year** table (i.e., we focused on data from years 2000 - 2022).
 
-* Using a ***WITH*** query, we created a common table expression (CTE) named **country_year** -- this table represents all the distinct combinations of country code/name and data year by performing a ***cross join*** between the ISO3_codes table and data_year table (See Fig. 3).
+    * By performing *left joins* between the country_code and data_year columns of the country_year and country_code and data_year columns of the raw source data tables, we created **5 indicator datasets** based on the 5 key factors.
+        - indicators_econ
+        - indicators_edu
+        - indicators_health
+        - indicators_lifestyle
+        - indicators_political
 
-* By performing ***left joins*** between the country_code_year column of the country_year (i.e, CTE query explained above) and country_code_year columns of all the source data tables, we created the [merged dataset](/Database/ExPat_Indicator_Dataset1.csv) to be used for our machine learning model (See Figure 3).
+* ***Expat Indicator Dataset*** - By performing *left joins* between the country_code_year column of the country_year and country_code_year columns of all the indicator datasets, we created the **Expat_Indicator_Dataset** to be used for our machine learning model. The table below describes the field name, type, and description of the Expat_Indicator_Dataset.
 
-![image](https://user-images.githubusercontent.com/99936542/179379380-6578122e-c706-4bbc-8e62-7d29fd0582b7.png)
+    | Field Name | Data Type | Field Description |
+    | --- | --- | --- |
+    | country_code_year | varchar(8) | Country code and data year combination (ex., USA_2022) | 
+    | country_code | varchar(3) | ISO3 country code |
+    | country | varchar(100) | Country Name |
+    | data_year	| int | Data year |
+    | human_development_index | decimal(5,4) | Summary measure of average achievement in key dimentions of human development: a long and healtthy life, being knowledgeable, and having a decent | standard of living |
+    | alcohol_consumption_per_capita | decimal(5,3) | Total number (sum of recorded and unrecorded) amount of alcohol consumed per person (ages 15+) over a calendar year, in liters of pure alcohol, adjusted for tourist consumption |
+    | gdp_per_capita | decimal(10,4) | Financial metric that breaks down a country's economic output per person |
+    | big_mac_dollar_price | decimal(5,3) | Price of a Big Mac in dollars |
+    | broadband_speed_rank | int | Broadband speed rank (out of 179 unique records) as of Jan 2022 |
+    | broadband_mbps | decimal(5,2) | Fixed Broadband speed (Mbps) as of Jan 2022 |
+    | mobile_speed_rank | int | Mobile speed rank (out of 140 unique records) as of Jan 2022 |
+    | mobile_mbps | decimal(5,2) | Mobile speed (Mbps) as of Jan 2022 |
+    | hdi_code | varchar(25) | Category scale based on Human Development Index: Low, Medium, High, or Very High |
+    | mean_years_schooling | decimal(10,8) | Average number of completed years of education of a country's population (ages 25+) excluding years spent repeating individual grades |
+    | health_adjusted_life_expectancy | decimal(9,7) | Number of years in full health that an individual can expect to live given the current morbidity and mortality conditions |
+    | happiness_index | decimal(4,3) | Indexation of happiness based on survey results; average respondents' happiness rating from 0 to 10 |
+    | numbeoqol | decimal(5,2) | Numbeo's quality of life index -- measures 8 indices: purchasing power (including rent), safety, health care, cost of living, property price to income ratio, traffic commute time, pollution, and climate |
+    | usnewsqol | int | Country quality of life ranking based on US News Best Countries Report 2021 |
+    | ceoqol | decimal(5,2)	| Country quality of life based on CEO World 2021 survey |
+    | freedom_religion_index | decimal(9,8) | Freedom of religion index (scaled from 0 to 1) |
+    | percent_english_speakers | decimal(5,2) | Percent of English speakers |
+    | linguistic_diversity_index | decimal(4,3) | Linguistic diversity index (scaled from 0 to 1); 1 indicating total diversity (that is, no two people have the same mother tongue) 0 indicates no diversity at all (that is, everyone has the same mother tongue) |
+    | avg_annual_precipitation | int | Average yearly precipitation (in mm depth) |
+    | avg_annual_temp_c | decimal(4,2) | Average yearly temperature (in Celsius) |
+    | democracy_index | decimal(3,2) | Democracy index (scaled 0 to 10) |
+    | regime_type | varchar(100) | Regime type: full democracy, flawed democracy, hybrid regime, or authoritarian |
 
-<b>Fig.3 - SQL code to create ExPat Indicator Dataset</b>
-
-The project database interfaces with the project by using the merged source data (i.e., ExPat Indicator Dataset) as the input data for the machine learning model. A connection string via the **psycopg2-binary** package can potentially be used to connect PostgresSQL and Python (see Figure 4). For testing purposes, however, we are currently importing the CSV version of the dataset into Python for ease of use.
+**The project database interfaces with the project by using the ExPat Indicator Dataset as the input data for the machine learning model.** A connection string via the **psycopg2-binary** package can potentially be used to connect PostgreSQL and Python (see below). For testing purposes, however, we are currently importing the CSV version of the dataset into Python for ease of use.
 
 ![image](https://user-images.githubusercontent.com/99936542/179379590-92e356e9-e763-495d-8680-dae08e1a7ff8.png)
-
-<b>Fig.4 - Python code to potentially connect the database to the machine learning model</b>
 
 ### Machine Learning Model
 
