@@ -35,7 +35,7 @@ The [entity-relationship diagram](/Database/ExPat_DB_ERD.png) of the project SQL
 
 The following twenty-five (25) tables are currently in the project SQL database:
 
-* Below are **14 static raw source datasets** in the RawData schema, which contain various proxy indicators/metrics for the five key factors that would be important for Americans considering emigration. All the tables have the following columns: country name and data year. These tables were created by importing the following CSV tables:
+* Below are [14 static raw source datasets](Database/2_Indicator_Source_Datasets) in the RawData schema, which contain various proxy indicators/metrics for the five key factors that would be important for Americans considering emigration. All the tables have the following columns: country name and data year. These tables were created by importing the following CSV tables:
 
     | Key Factor | Table Name | Proxy Indicators/Metrics |
     | --- | --- | --- |
@@ -54,7 +54,7 @@ The following twenty-five (25) tables are currently in the project SQL database:
     | Political | Pol_DI | democracy_index|
     | Political | Pol_Regime | regime_type |
 
-* ***Country Code Mapping*** -- In order to combine all the source datasets to create the input dataset for our machine learning model, all the country name/code and data year fields would need to match each of these tables. 
+* [Country Code Mapping](Database/1_Country_Code_Mapping) -- In order to combine all the source datasets to create the input dataset for our machine learning model, all the country name/code and data year fields would need to match each of these tables. 
 
     * **ISO3_Codes**: ISO 3166-1 alpha-3 (ISO3) codes are three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.
 
@@ -74,7 +74,7 @@ The following twenty-five (25) tables are currently in the project SQL database:
         - indicators_lifestyle
         - indicators_political
 
-* ***Expat Indicator Dataset*** - By performing *left joins* between the country_code_year column of the country_year and country_code_year columns of all the indicator datasets, we created the **Expat_Indicator_Dataset** to be used for our machine learning model. The table below describes the field name, data type, and field description of the Expat Indicator Dataset.
+* ***Expat Indicator Dataset*** - By performing *left joins* between the country_code_year column of the country_year and country_code_year columns of all the indicator datasets, we created the [Expat_Indicator_Dataset](/Database/ExPat_Indicator_Dataset.csv) to be used for our machine learning model. The table below describes the field name, data type, and field description of the Expat Indicator Dataset.
 
     | Field Name | Data Type | Field Description |
     | --- | --- | --- |
