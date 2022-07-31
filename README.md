@@ -35,26 +35,26 @@ The [entity-relationship diagram](/Database/ExPat_DB_ERD.png) of the project SQL
 
 The following twenty-five (25) tables are currently in the project SQL database:
 
-* Below are **14 static raw source datasets** in the RawData schema which contain various proxy indicators/metrics for the five key factors that would be important for Americans considering emigration. All the tables have the following columns: country name and data year. These tables were created by importing the following CSV tables:
+* Below are **14 static raw source datasets** in the RawData schema, which contain various proxy indicators/metrics for the five key factors that would be important for Americans considering emigration. All the tables have the following columns: country name and data year. These tables were created by importing the following CSV tables:
 
-    | Table Name | Key Factor | Proxy Indicators/Metrics |
+    | Key Factor | Table Name | Proxy Indicators/Metrics |
     | --- | --- | --- |
-    | Econ_Alcohol_GDP | Economy | alcohol_consumption_per_capita, gdp_per_capita |
-    | Econ_Big_Mac | Economy | big_mac_dollar_price |
-    | Econ_HDI | Economy | human_development_index |
-    | Econ_Internet_Mobile_Speeds | Economy | broadband_speed_rank, broadband_mbps, mobile_speed_rank, mobile_mbps |
-    | Edu_Mean_Years_Schooling | Education | hdi_code, mean_years_schooling |
-    | Health_HALE | Health | health_adjusted_life_expectancy |
-    | Health_Happiness | Health | happiness_index |
-    | Health_QoL | Health | numbeoqol, usnewsqol, ceoqol |
-    | Life_FRI_PES | Lifestyle | freedom_religion_index, percent_english_speakers |
-    | Life_LDI | Lifestyle | linguistic_diversity_index |
-    | Life_Precip | Lifestyle | avg_annual_precipitation |
-    | Life_Temp | Lifestyle | avg_annual_temp_c |
-    | Pol_DI | Political | democracy_index|
-    | Pol_Regime | Political | regime_type |
+    | Economy | Econ_Alcohol_GDP | alcohol_consumption_per_capita, gdp_per_capita |
+    | Economy | Econ_Big_Mac | big_mac_dollar_price |
+    | Economy | Econ_HDI | human_development_index |
+    | Economy | Econ_Internet_Mobile_Speeds | broadband_speed_rank, broadband_mbps, mobile_speed_rank, mobile_mbps |
+    | Education | Edu_Mean_Years_Schooling | hdi_code, mean_years_schooling |
+    | Health | Health_HALE | health_adjusted_life_expectancy |
+    | Health | Health_Happiness | happiness_index |
+    | Health | Health_QoL | numbeoqol, usnewsqol, ceoqol |
+    | Lifestyle | Life_FRI_PES | freedom_religion_index, percent_english_speakers |
+    | Lifestyle | Life_LDI | linguistic_diversity_index |
+    | Lifestyle | Life_Precip | avg_annual_precipitation |
+    | Lifestyle | Life_Temp | avg_annual_temp_c |
+    | Political | Pol_DI | democracy_index|
+    | Political | Pol_Regime | regime_type |
 
-* ***Country Code Mapping*** -- In order to join all the source datasets together to create the input dataset for our machine learning model, all the country name/code and data year fields would need to match each of these tables. 
+* ***Country Code Mapping*** -- In order to combine all the source datasets to create the input dataset for our machine learning model, all the country name/code and data year fields would need to match each of these tables. 
 
     * **ISO3_Codes**: ISO 3166-1 alpha-3 (ISO3) codes are three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.
 
@@ -65,24 +65,24 @@ The following twenty-five (25) tables are currently in the project SQL database:
 
 * ***Indicator Datasets*** --
 
-    * Using a *WITH* query, we created a common table expression (CTE) named **country_year** -- this table represents all the distinct combinations of country code/name and data year by performing a *cross join* between the ISO3_codes table and **data_year** table (i.e., we focused on data from years 2000 - 2022).
+    * Using a *WITH* query, we created a common table expression (CTE) named **country_year**. This table represents all the distinct combinations of country code/name and data year by performing a *cross join* between the ISO3_codes table and **data_year** table (i.e., we focused on data from 2000 - 2022).
 
-    * By performing *left joins* between the country_code and data_year columns of the country_year and country_code and data_year columns of the raw source data tables, we created **5 indicator datasets** based on the 5 key factors.
+    * By performing *left joins* between the country_code and data_year columns of the country_year and country_code and data_year columns of the raw source data tables, we created **five indicator datasets** based on the five key factors.
         - indicators_econ
         - indicators_edu
         - indicators_health
         - indicators_lifestyle
         - indicators_political
 
-* ***Expat Indicator Dataset*** - By performing *left joins* between the country_code_year column of the country_year and country_code_year columns of all the indicator datasets, we created the **Expat_Indicator_Dataset** to be used for our machine learning model. The table below describes the field name, type, and description of the Expat_Indicator_Dataset.
+* ***Expat Indicator Dataset*** - By performing *left joins* between the country_code_year column of the country_year and country_code_year columns of all the indicator datasets, we created the **Expat_Indicator_Dataset** to be used for our machine learning model. The table below describes the field name, data type, and field description of the Expat Indicator Dataset.
 
     | Field Name | Data Type | Field Description |
     | --- | --- | --- |
     | country_code_year | varchar(8) | Country code and data year combination (ex., USA_2022) | 
     | country_code | varchar(3) | ISO3 country code |
     | country | varchar(100) | Country Name |
-    | data_year	| int | Data year |
-    | human_development_index | decimal(5,4) | Summary measure of average achievement in key dimentions of human development: a long and healtthy life, being knowledgeable, and having a decent | standard of living |
+    | data_year | int | Data year |
+    | human_development_index | decimal(5,4) | summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable, and having a decent | standard of living |
     | alcohol_consumption_per_capita | decimal(5,3) | Total number (sum of recorded and unrecorded) amount of alcohol consumed per person (ages 15+) over a calendar year, in liters of pure alcohol, adjusted for tourist consumption |
     | gdp_per_capita | decimal(10,4) | Financial metric that breaks down a country's economic output per person |
     | big_mac_dollar_price | decimal(5,3) | Price of a Big Mac in dollars |
@@ -94,18 +94,18 @@ The following twenty-five (25) tables are currently in the project SQL database:
     | mean_years_schooling | decimal(10,8) | Average number of completed years of education of a country's population (ages 25+) excluding years spent repeating individual grades |
     | health_adjusted_life_expectancy | decimal(9,7) | Number of years in full health that an individual can expect to live given the current morbidity and mortality conditions |
     | happiness_index | decimal(4,3) | Indexation of happiness based on survey results; average respondents' happiness rating from 0 to 10 |
-    | numbeoqol | decimal(5,2) | Numbeo's quality of life index -- measures 8 indices: purchasing power (including rent), safety, health care, cost of living, property price to income ratio, traffic commute time, pollution, and climate |
+    | numbeoqol | decimal(5,2) | Numbeo's quality of life index -- measures eight indices: purchasing power (including rent), safety, health care, cost of living, property price to income ratio, traffic commute time, pollution, and climate |
     | usnewsqol | int | Country quality of life ranking based on US News Best Countries Report 2021 |
-    | ceoqol | decimal(5,2)	| Country quality of life based on CEO World 2021 survey |
+    | ceoqol | decimal(5,2) | Country quality of life-based on CEO World 2021 survey |
     | freedom_religion_index | decimal(9,8) | Freedom of religion index (scaled from 0 to 1) |
     | percent_english_speakers | decimal(5,2) | Percent of English speakers |
-    | linguistic_diversity_index | decimal(4,3) | Linguistic diversity index (scaled from 0 to 1); 1 indicating total diversity (that is, no two people have the same mother tongue) 0 indicates no diversity at all (that is, everyone has the same mother tongue) |
+    | linguistic_diversity_index | decimal(4,3) | Linguistic diversity index (scaled from 0 to 1); 1 indicates total diversity (that is, no two people have the same mother tongue) and 0 indicates no diversity at all (that is, everyone has the same mother tongue) |
     | avg_annual_precipitation | int | Average yearly precipitation (in mm depth) |
     | avg_annual_temp_c | decimal(4,2) | Average yearly temperature (in Celsius) |
     | democracy_index | decimal(3,2) | Democracy index (scaled 0 to 10) |
     | regime_type | varchar(100) | Regime type: full democracy, flawed democracy, hybrid regime, or authoritarian |
 
-**The project database interfaces with the project by using the ExPat Indicator Dataset as the input data for the machine learning model.** A connection string via the **psycopg2-binary** package can potentially be used to connect PostgreSQL and Python (see below). For testing purposes, however, we are currently importing the CSV version of the dataset into Python for ease of use.
+**The project database interfaces with the project using the ExPat Indicator Dataset as the input data for the machine learning model.** A connection string via the **psycopg2-binary** package can potentially be used to connect PostgreSQL and Python (see below). For testing purposes, however, we are currently importing the CSV version of the dataset into Python for ease of use.
 
 ![image](https://user-images.githubusercontent.com/99936542/179379590-92e356e9-e763-495d-8680-dae08e1a7ff8.png)
 
