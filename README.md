@@ -29,13 +29,13 @@ Data for the following proxy indicators for 5 key metrics that would be importan
 
 ### ExPatApp SQL Database
 
-The [entity-relationship diagram](/Database/ExPat_DB_ERD.png) of the project SQL database is pictured below.
+The [entity-relationship diagram](/Database/ExPat_DB_ERD_Final.png) of the project SQL database is pictured below.
 
 ![ERD_image](/Database/ExPat_DB_ERD_Final.png)
 
 The following twenty-five (25) tables are currently in the project SQL database:
 
-* Below are [14 static raw source datasets](Database/2_Indicator_Source_Datasets) in the RawData schema, which contain various proxy indicators/metrics for the five key factors that would be important for Americans considering emigration. All the tables have the following columns: country name and data year. These tables were created by importing the following CSV tables:
+* Below are [14 static raw source datasets](Database/1_Raw_Source_Datasets) in the RawData schema, which contain various proxy indicators/metrics for the five key factors that would be important for Americans considering emigration. All the tables have the following columns: country name and data year. These tables were created by importing the following CSV tables:
 
     | Key Factor | Table Name | Proxy Indicators/Metrics |
     | --- | --- | --- |
@@ -56,23 +56,23 @@ The following twenty-five (25) tables are currently in the project SQL database:
 
 * ***Country Code Mapping*** -- In order to combine all the source datasets to create the input dataset for our machine learning model, all the country name/code and data year fields would need to match each of these tables. 
 
-    * [ISO3_Codes](Database/1_Country_Code_Mapping/iso3.csv): ISO 3166-1 alpha-3 (ISO3) codes are three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.
+    * [ISO3_Codes](Database/2_Country_Code_Mapping/iso3.csv): ISO 3166-1 alpha-3 (ISO3) codes are three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.
 
     * For raw source datasets without a country code column, we created **3 country code map tables** (listed below) by performing *full joins* with the country name in the ISO3_codes table and the country names of the source datasets. Manual updates were also made to an exported copy of the country code map table to ensure each country name in all source tables had a corresponding ISO3 code.
-        - [country_code_map](Database/1_Country_Code_Mapping/country_code_map.csv)
-        - [country_code_map_health_data](Database/1_Country_Code_Mapping/country_code_map_health_data.csv)
-        - [country_code_map_lifestyle_data](Database/1_Country_Code_Mapping/country_code_map_lifestyle_data.csv)
+        - [country_code_map](Database/2_Country_Code_Mapping/country_code_map.csv)
+        - [country_code_map_health_data](Database/2_Country_Code_Mapping/country_code_map_health_data.csv)
+        - [country_code_map_lifestyle_data](Database/2_Country_Code_Mapping/country_code_map_lifestyle_data.csv)
 
 * ***Indicator Datasets*** --
 
-    * Using a *WITH* query, we created a common table expression (CTE) named **country_year**. This table represents all the distinct combinations of country code/name and data year by performing a *cross join* between the ISO3_codes table and [data_year]((Database/1_Country_Code_Mapping/data_year.csv)) table (i.e., we focused on data from 2000 - 2022).
+    * Using a *WITH* query, we created a common table expression (CTE) named **country_year**. This table represents all the distinct combinations of country code/name and data year by performing a *cross join* between the ISO3_codes table and [data_year](Database/2_Country_Code_Mapping/data_year.csv) table (i.e., we focused on data from 2000 - 2022).
 
     * By performing *left joins* between the country_code and data_year columns of the country_year and country_code and data_year columns of the raw source data tables, we created **five indicator datasets** based on the five key factors.
-        - indicators_econ
-        - indicators_edu
-        - indicators_health
-        - indicators_lifestyle
-        - indicators_political
+        - [indicators_econ](Database/3_Indicator_Datasets/indicators_econ.csv)
+        - [indicators_edu](Database/3_Indicator_Datasets/indicators_edu.csv)
+        - [indicators_health](Database/3_Indicator_Datasets/indicators_health.csv)
+        - [indicators_lifestyle](Database/3_Indicator_Datasets/indicators_lifestyle.csv)
+        - [indicators_political](Database/3_Indicator_Datasets/indicators_political.csv)
 
 * ***Expat Indicator Dataset*** - By performing *left joins* between the country_code_year column of the country_year and country_code_year columns of all the indicator datasets, we created the [Expat_Indicator_Dataset](/Database/ExPat_Indicator_Dataset.csv) to be used for our machine learning model. The table below describes the field name, data type, and field description of the Expat Indicator Dataset.
 
@@ -82,7 +82,7 @@ The following twenty-five (25) tables are currently in the project SQL database:
     | country_code | varchar(3) | ISO3 country code |
     | country | varchar(100) | Country Name |
     | data_year | int | Data year |
-    | human_development_index | decimal(5,4) | summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable, and having a decent | standard of living |
+    | human_development_index | decimal(5,4) | Summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable, and having a decent | standard of living |
     | alcohol_consumption_per_capita | decimal(5,3) | Total number (sum of recorded and unrecorded) amount of alcohol consumed per person (ages 15+) over a calendar year, in liters of pure alcohol, adjusted for tourist consumption |
     | gdp_per_capita | decimal(10,4) | Financial metric that breaks down a country's economic output per person |
     | big_mac_dollar_price | decimal(5,3) | Price of a Big Mac in dollars |
