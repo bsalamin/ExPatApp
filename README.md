@@ -54,18 +54,18 @@ The following twenty-five (25) tables are currently in the project SQL database:
     | Political | Pol_DI | democracy_index|
     | Political | Pol_Regime | regime_type |
 
-* [Country Code Mapping](Database/1_Country_Code_Mapping) -- In order to combine all the source datasets to create the input dataset for our machine learning model, all the country name/code and data year fields would need to match each of these tables. 
+* ***Country Code Mapping*** -- In order to combine all the source datasets to create the input dataset for our machine learning model, all the country name/code and data year fields would need to match each of these tables. 
 
-    * **ISO3_Codes**: ISO 3166-1 alpha-3 (ISO3) codes are three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.
+    * [ISO3_Codes](Database/1_Country_Code_Mapping/iso3.csv): ISO 3166-1 alpha-3 (ISO3) codes are three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest.
 
     * For raw source datasets without a country code column, we created **3 country code map tables** (listed below) by performing *full joins* with the country name in the ISO3_codes table and the country names of the source datasets. Manual updates were also made to an exported copy of the country code map table to ensure each country name in all source tables had a corresponding ISO3 code.
-        - country_code_map
-        - country_code_map_health_data
-        - country_code_map_lifestyle_data
+        - [country_code_map](Database/1_Country_Code_Mapping/country_code_map.csv)
+        - [country_code_map_health_data](Database/1_Country_Code_Mapping/country_code_map_health_data.csv)
+        - [country_code_map_lifestyle_data](Database/1_Country_Code_Mapping/country_code_map_lifestyle_data.csv)
 
 * ***Indicator Datasets*** --
 
-    * Using a *WITH* query, we created a common table expression (CTE) named **country_year**. This table represents all the distinct combinations of country code/name and data year by performing a *cross join* between the ISO3_codes table and **data_year** table (i.e., we focused on data from 2000 - 2022).
+    * Using a *WITH* query, we created a common table expression (CTE) named **country_year**. This table represents all the distinct combinations of country code/name and data year by performing a *cross join* between the ISO3_codes table and [data_year]((Database/1_Country_Code_Mapping/data_year.csv)) table (i.e., we focused on data from 2000 - 2022).
 
     * By performing *left joins* between the country_code and data_year columns of the country_year and country_code and data_year columns of the raw source data tables, we created **five indicator datasets** based on the five key factors.
         - indicators_econ
