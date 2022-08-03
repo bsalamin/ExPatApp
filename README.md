@@ -147,8 +147,11 @@ In addition, we had to ensure that our PCA decomposition explained enough of the
 ![explained_variance](https://user-images.githubusercontent.com/99286327/182662318-cebecf40-1e14-466e-8233-809e523ae4a3.png)
 
 The first two principal components show consistent, if noisy, clustering patterns, which tracks with their explaining together over two-thirds of the variance.
+
 ![PCA1_PCA2](https://user-images.githubusercontent.com/99286327/181533413-dfbcc7af-8ae1-4f09-84f8-06b1ba3fba4e.png)
+
 The next two principal components are much noisier, which makes sense because they each preserve a smaller proportion of variation, only about ~14% between them.
+
 ![PCA3_PCA4](https://user-images.githubusercontent.com/99286327/181533421-eae4a280-4c08-42e9-86ba-cf2ec3cd454a.png)
 
 The results of the model also indicate 13 countries in the same cluster as the US:
