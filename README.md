@@ -4,12 +4,12 @@
 With changing political and economic landscapes and different travel patterns in a post-COVID world, there is new interest for emigration from America. However, there is no clear index of how an American should go about choosing a different country to start a new life.
 
 ## Overview
-This application will perform an analysis to help potential expatriates discover new places they might want to immigrate to, should they decide to leave the US. The end result allows a user to filter a dashboard based on their individual preferences from a specified list of parameters (political, economic, etc.) and showcases different countries to move to based on the input selections.
+This application will perform an analysis to help potential expatriates discover new places they might want to emigrate to, should they decide to leave the US. The end result is an interactive dashboard that allows a user to filter based on their individual preferences from a specified list of parameters (political, economic, etc.) and showcases different countries to move to based on the input selections.
 
 ## Data Sources
 The data for this analysis is sourced from government agencies, international organizations (e.g., the UN and OECD), non-governmental organizations (NGOs), as well as private sources that may have relevant data for traveling, culture, and economics (Yelp, Google, etc.). 
 
-Data for the following proxy indicators for 5 key metrics that would be important for Americans considering emigration have been collected:
+Data for the following proxy indicators for 5 key factors that would be important for Americans considering emigration have been collected:
 #### Economy
 * [Human Development Index](https://hdr.undp.org/data-center/documentation-and-downloads)
 * [Global purchasing power parity for Big Macs at McDonalds](https://www.economist.com/big-mac-index)
@@ -17,7 +17,7 @@ Data for the following proxy indicators for 5 key metrics that would be importan
 #### Health
 * [Health-Adjusted Life Expectancy (HALE)](https://vizhub.healthdata.org/gbd-results/)
 * [Happiness Index](https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world)
-* [Quality of Life](https://worldpopulationreview.com/country-rankings/standard-of-living-by-country)
+* [Quality of Life Index](https://worldpopulationreview.com/country-rankings/standard-of-living-by-country)
 #### Political
 * [Democracy Index](https://www.eiu.com/n/campaigns/democracy-index-2020/)
 * [Regime Type](https://en.wikipedia.org/wiki/Democracy_Index)
@@ -28,6 +28,7 @@ Data for the following proxy indicators for 5 key metrics that would be importan
 * [Alcohol Consumption](https://www.kaggle.com/datasets/pralabhpoudel/alcohol-consumption-by-country)
 * [Percent English speakers](http://chartsbin.com/view/43391)
 * [Average temperature per year](https://www.kaggle.com/code/akshaychavan/average-temperature-per-country-per-year/data)
+* [Average precipitation per year](https://data.worldbank.org/indicator/AG.LND.PRCP.MM)
 
 ## Methodology
 
@@ -41,7 +42,7 @@ The following twenty-five (25) tables are currently in the project SQL database:
 
 * Below are [14 static raw source datasets](Database/1_Raw_Source_Datasets) in the RawData schema, which contain various proxy indicators/metrics for the five key factors that would be important for Americans considering emigration. All the tables have the following columns: country name and data year. These tables were created by importing the following CSV tables:
 
-    | Key Factor | Table Name | Proxy Indicators/Metrics |
+    | Key Factor | Table Name | Proxy Indicators |
     | --- | --- | --- |
     | Economy | Econ_Alcohol_GDP | alcohol_consumption_per_capita, gdp_per_capita |
     | Economy | Econ_Big_Mac | big_mac_dollar_price |
@@ -116,13 +117,13 @@ The following twenty-five (25) tables are currently in the project SQL database:
 ### Machine Learning Model
 
 #### Summary 
-We set up an unsupervised machine learning model that will cluster country-level data for our Expat App. At a high level, the ML model uses unsupervised learning to cluster countries from our dataset (indicators for the clustering fall into five categories: Economy, Health, Political System, Education, & Lifestyle), with the goal of creating a cluster of “similar” countries to the US that an expat could move to (as well as other clusters of countries that are similar to one another). We used ML in this way for our project for a few key reasons:
+We set up an unsupervised machine learning (ML) model that will cluster country-level data for our Expat App. At a high level, the ML model uses unsupervised learning to cluster countries from our dataset (indicators for the clustering fall into five categories: Economy, Health, Political System, Education, & Lifestyle), with the goal of creating a cluster of “similar” countries to the US that an expat could move to (as well as other clusters of countries that are similar to one another). We used ML in this way for our project for a few key reasons:
 
 1. It is difficult to use supervised learning in this circumstance because it's challenging to find data about where expatriated people moved and because preference is complex.
 2. Even if we used coarst nation-level migration data to see where people tended to move, that wouldn’t tell us if they are satisfied with their move, or if they moved voluntarily.
 3. Most of the data we are using are already (or can be preprocessed into) a numerical form, and so clusters can happen easily and are amenable to PCA without huge loss.
 
-Also, if a particular data column is challenging to incorporate into our ML model (for example, if it is missing data from many countries, and so would be unfeasible to use for ML because of all the NaN’s), we can instead give it to the end user as a filter, which they can then apply/experiment with in our Tableau dashboard. This ended up being the case for several columns which are explicitly dropped later in the code (see those cells for more rationale).
+Also, if a particular data column is challenging to incorporate into our ML model (for example, if it is missing data from many countries, and so would be unfeasible to use for ML because of all the NaN’s), we can instead give it to the end user as a filter, which they can then apply/experiment within our Tableau dashboard. This ended up being the case for several columns which are explicitly dropped later in the code (see those cells for more rationale).
 
 Because the number of rows in the datasets we are working with is relatively small, we will use hierarchical clustering instead of K-Means. This is also a best practice because then the clusters don’t depend on a random seed, just agglomerative clustering of our one full dataset.
 
@@ -183,7 +184,7 @@ The dashboard is held in Tableu Public and allows users to filter on a number of
 
 To filter, there are a number of sliding scales the user can choose from to determine what is most important to them. Unlike with our ML model where we had to remove all null values, the Tableau visualization may at times show missing values for some of the data included in the numerous filters. When a user hovers over a country, they can see a number of factors that were included in the ML model that may affect their decision such as the democracy index, freedom of religion index, life expectancy, mean years of schooling, etc. 
 
-### Slides
+### Presentation Slides
 [Google Slides](https://docs.google.com/presentation/d/1MRCJfYPhn_HDTTVEcOQcfKrYrxx9mod0SCcO8BQLBWU/edit#slide=id.p)
 
 
