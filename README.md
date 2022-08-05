@@ -141,10 +141,12 @@ Our choice of an unsupervised machine learning model for our project has one cle
 
 
 ## Results
-The machine learning model produced 10 clusters. We decided on this number using the dendrogram in the CoLab notebook. 
+The machine learning model produced 10 clusters. We decided on this number using the dendrogram in the CoLab notebook.
+
 ![Screen Shot 2022-08-03 at 12 42 42 PM](https://user-images.githubusercontent.com/99286327/182663355-2347af05-cacc-44f5-8f47-78165c383ab4.png)
 
 In addition, we had to ensure that our PCA decomposition explained enough of the variance to use it to build the clusters, which it did with just over 80% of the variance explained across four principal components.
+
 ![explained_variance](https://user-images.githubusercontent.com/99286327/182662318-cebecf40-1e14-466e-8233-809e523ae4a3.png)
 
 The first two principal components show consistent, if noisy, clustering patterns, which tracks with their explaining together over two-thirds of the variance.
